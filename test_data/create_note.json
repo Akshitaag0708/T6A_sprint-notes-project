@@ -1,0 +1,43 @@
+{
+  "valid_note": {
+    "category": "Work",
+    "title": "Meeting with Team",
+    "description": "Discuss project updates and next steps"
+  },
+
+  "missing_title": {
+    "category": "Work",
+    "title": "",
+    "description": "Discuss project updates and next steps"
+  },
+
+  "missing_description": {
+    "category": "Work",
+    "title": "Meeting with Team",
+    "description": ""
+  },
+
+  "all_fields_empty": {
+    "category": "",
+    "title": "",
+    "description": ""
+  },
+
+  "integration_note": {
+    "category": "Work",
+    "title": "Integration Test Note",
+    "description": "This note is created for integration testing purposes"
+  },
+
+  "integration_edit_note": {
+    "category": "Work",
+    "title": "Integration Test Note creation ",
+    "description": "This note is created for editing integration testing purposes"
+  },
+
+  "integration_delete_note": {
+    "category": "Work",
+    "title": "Integration Test Note deletion",
+    "description": "This note is created for deletion integration testing purposes"
+  }
+}

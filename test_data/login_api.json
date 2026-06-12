@@ -1,0 +1,16 @@
+{
+  "valid_user": {
+    "email": "agakshita7@gmail.com",
+    "password": "akshita78"
+  },
+
+  "invalid_email": {
+    "email": "wrong@gmail.com",
+    "password": "akshita78"
+  },
+
+  "invalid_password": {
+    "email": "agakshita7@gmail.com",
+    "password": "wrong123"
+  }
+}

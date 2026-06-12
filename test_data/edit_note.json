@@ -1,0 +1,36 @@
+{
+  "valid_edit": {
+    "category": "Home",
+    "title": "Grocery Shopping",
+    "description": "Buy fruits, vegetables, and dairy products",
+    "completed": false
+  },
+
+  "missing_title": {
+    "category": "Home",
+    "title": "",
+    "description": "Buy fruits, vegetables, and dairy products",
+    "completed": false
+  },
+
+  "missing_description": {
+    "category": "Home",
+    "title": "Grocery Shopping",
+    "description": "",
+    "completed": false
+  },
+
+  "invalid_completed": {
+    "category": "Home",
+    "title": "Grocery Shopping",
+    "description": "Buy fruits, vegetables, and dairy products",
+    "completed": "invalid"
+  },
+
+  "integration_edit": {
+    "category": "Home",
+    "title": "Integration Test Edit",
+    "description": "This note is edited for integration testing purposes",
+    "completed": false
+  }
+}

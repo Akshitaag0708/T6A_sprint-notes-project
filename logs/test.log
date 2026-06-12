@@ -1,0 +1,113 @@
+2026-06-12 11:02:10,420 - INFO - Login Test Started
+2026-06-12 11:02:10,462 - INFO - Attempting login with user: agakshita7@gmail.com
+2026-06-12 11:02:22,807 - INFO - Current URL after login: https://practice.expandtesting.com/notes/app/login
+2026-06-12 11:02:22,812 - INFO - Login Test Passed
+2026-06-12 11:02:35,624 - INFO - Create Note Test Started
+2026-06-12 11:02:35,630 - INFO - Logging into application
+2026-06-12 11:02:38,231 - INFO - Creating note with title: Meeting with team
+2026-06-12 11:02:45,403 - INFO - Created Title: Meeting with team
+2026-06-12 11:02:45,403 - INFO - Created Description: Discuss project updates and next steps
+2026-06-12 11:02:45,403 - INFO - Create Note Test Passed
+2026-06-12 11:02:54,567 - INFO - Edit Note Test Started
+2026-06-12 11:02:54,582 - INFO - Logging into application
+2026-06-12 11:02:57,240 - INFO - Editing note title to: Grocery Shopping
+2026-06-12 11:03:04,890 - INFO - Available note titles: ['Grocery Shopping', 'Meeting with team', 'Integration Test Note', 'Integration Test Edit', 'Grocery Shopping', 'Meeting with Team', 'Integration Test Edit', 'Grocery Shopping', 'Meeting with Team', 'Grocery Shopping', 'Integration Test Note', 'Integration Test Edit', 'Grocery Shopping', 'Meeting with Team']
+2026-06-12 11:03:04,890 - INFO - Edit Note Test Passed
+2026-06-12 11:03:15,626 - INFO - Delete Note Test Started
+2026-06-12 11:03:15,640 - INFO - Logging into application
+2026-06-12 11:03:22,180 - INFO - Deleting note
+2026-06-12 11:03:28,982 - INFO - Remaining Notes: ['Meeting with team', 'Integration Test Note', 'Integration Test Edit', 'Grocery Shopping', 'Meeting with Team', 'Integration Test Edit', 'Grocery Shopping', 'Meeting with Team', 'Grocery Shopping', 'Integration Test Note', 'Integration Test Edit', 'Grocery Shopping', 'Meeting with Team']
+2026-06-12 11:03:53,017 - INFO - API Login Test Started
+2026-06-12 11:03:54,390 - INFO - API Login Test Passed
+2026-06-12 11:04:12,929 - INFO - Integration Test Passed
+2026-06-12 11:05:27,865 - INFO - Invalid Create Note Test Started - missing_title
+2026-06-12 11:05:31,209 - INFO - Logging into application
+2026-06-12 11:05:35,167 - INFO - Screenshot saved: screenshots/invalid_create_note_missing_title.png
+2026-06-12 11:05:35,167 - INFO - Executing scenario: missing_title
+2026-06-12 11:05:35,531 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 11:05:35,536 - INFO - Invalid Create Note Test Passed - missing_title
+2026-06-12 11:05:43,222 - INFO - Invalid Create Note Test Started - missing_description
+2026-06-12 11:05:46,830 - INFO - Logging into application
+2026-06-12 11:05:51,870 - INFO - Screenshot saved: screenshots/invalid_create_note_missing_description.png
+2026-06-12 11:05:51,870 - INFO - Executing scenario: missing_description
+2026-06-12 11:05:52,199 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 11:05:52,204 - INFO - Invalid Create Note Test Passed - missing_description
+2026-06-12 11:06:01,070 - INFO - Invalid Create Note Test Started - all_fields_empty
+2026-06-12 11:06:04,683 - INFO - Logging into application
+2026-06-12 11:06:09,931 - INFO - Screenshot saved: screenshots/invalid_create_note_all_fields_empty.png
+2026-06-12 11:06:09,932 - INFO - Executing scenario: all_fields_empty
+2026-06-12 11:06:10,067 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 11:06:10,076 - INFO - Invalid Create Note Test Passed - all_fields_empty
+2026-06-12 11:06:13,523 - INFO - Invalid Login Test Started - invalid_email
+2026-06-12 11:06:18,612 - INFO - Trying login with email: wrong@gmail.com
+2026-06-12 11:06:23,893 - INFO - Screenshot saved: reports/screenshots/invalid_email.png
+2026-06-12 11:06:23,902 - INFO - Current URL: https://practice.expandtesting.com/notes/app/login#google_vignette
+2026-06-12 11:06:23,913 - INFO - Invalid Login Test Passed - invalid_email
+2026-06-12 11:06:32,583 - INFO - Invalid Login Test Started - invalid_password
+2026-06-12 11:06:36,263 - INFO - Trying login with email: agakshita7@gmail.com
+2026-06-12 11:06:39,454 - INFO - Screenshot saved: reports/screenshots/invalid_password.png
+2026-06-12 11:06:39,462 - INFO - Current URL: https://practice.expandtesting.com/notes/app/login
+2026-06-12 11:06:39,467 - INFO - Invalid Login Test Passed - invalid_password
+2026-06-12 11:20:34,323 - INFO - API Login Test Started
+2026-06-12 11:20:35,751 - INFO - API Login Test Passed
+2026-06-12 11:21:32,412 - INFO - Integration Test Passed
+2026-06-12 11:21:42,650 - INFO - Integration Test Passed
+2026-06-12 11:22:37,120 - INFO - Edit Note Test Started
+2026-06-12 11:22:37,136 - INFO - Logging into application
+2026-06-12 11:22:41,656 - INFO - Login Test Started
+2026-06-12 11:22:41,670 - INFO - Attempting login with user: agakshita7@gmail.com
+2026-06-12 11:22:46,237 - INFO - Current URL after login: https://practice.expandtesting.com/notes/app/login
+2026-06-12 11:22:46,252 - INFO - Login Test Passed
+2026-06-12 11:22:57,144 - INFO - Create Note Test Started
+2026-06-12 11:22:57,154 - INFO - Logging into application
+2026-06-12 11:22:57,338 - INFO - Delete Note Test Started
+2026-06-12 11:22:57,350 - INFO - Logging into application
+2026-06-12 11:23:00,669 - INFO - Deleting note
+2026-06-12 11:23:00,828 - INFO - Creating note with title: Meeting with team
+2026-06-12 11:23:08,115 - INFO - Remaining Notes: ['Meeting with team', 'Grocery Shopping', 'Meeting with Team', 'Integration Test Note creation', 'Grocery Shopping', 'Meeting with Team', 'Meeting with team', 'Integration Test Note', 'Integration Test Edit', 'Grocery Shopping', 'Meeting with Team', 'Integration Test Edit', 'Grocery Shopping', 'Meeting with Team', 'Grocery Shopping', 'Integration Test Note', 'Integration Test Edit', 'Grocery Shopping', 'Meeting with Team']
+2026-06-12 11:23:09,008 - INFO - Created Title: Meeting with team
+2026-06-12 11:23:09,009 - INFO - Created Description: Discuss project updates and next steps
+2026-06-12 11:23:09,009 - INFO - Create Note Test Passed
+2026-06-12 11:23:12,476 - INFO - Invalid Create Note Test Started - missing_description
+2026-06-12 11:23:20,089 - INFO - Invalid Create Note Test Started - missing_title
+2026-06-12 11:23:22,302 - INFO - Logging into application
+2026-06-12 11:23:28,393 - INFO - Logging into application
+2026-06-12 11:23:29,737 - INFO - Screenshot saved: screenshots/invalid_create_note_missing_title.png
+2026-06-12 11:23:29,738 - INFO - Executing scenario: missing_title
+2026-06-12 11:23:30,522 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 11:23:30,533 - INFO - Invalid Create Note Test Passed - missing_title
+2026-06-12 11:23:38,535 - INFO - Invalid Login Test Started - invalid_email
+2026-06-12 11:23:51,175 - INFO - Trying login with email: wrong@gmail.com
+2026-06-12 11:23:54,338 - INFO - Invalid Create Note Test Started - all_fields_empty
+2026-06-12 11:23:54,551 - INFO - Screenshot saved: reports/screenshots/invalid_email.png
+2026-06-12 11:23:54,567 - INFO - Current URL: https://practice.expandtesting.com/notes/app/login
+2026-06-12 11:23:54,578 - INFO - Invalid Login Test Passed - invalid_email
+2026-06-12 11:23:58,483 - INFO - Logging into application
+2026-06-12 11:24:04,619 - INFO - Screenshot saved: screenshots/invalid_create_note_all_fields_empty.png
+2026-06-12 11:24:04,619 - INFO - Executing scenario: all_fields_empty
+2026-06-12 11:24:04,876 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 11:24:04,890 - INFO - Invalid Create Note Test Passed - all_fields_empty
+2026-06-12 11:24:22,825 - INFO - Invalid Login Test Started - invalid_password
+2026-06-12 11:24:27,437 - INFO - Trying login with email: agakshita7@gmail.com
+2026-06-12 11:25:13,555 - INFO - Screenshot saved: reports/screenshots/invalid_password.png
+2026-06-12 11:25:13,566 - INFO - Current URL: https://practice.expandtesting.com/notes/app/login#google_vignette
+2026-06-12 11:25:13,578 - INFO - Invalid Login Test Passed - invalid_password
+2026-06-12 11:33:16,888 - INFO - Login Test Started
+2026-06-12 11:33:16,903 - INFO - Attempting login with user: agakshita7@gmail.com
+2026-06-12 11:33:21,260 - INFO - Current URL after login: https://practice.expandtesting.com/notes/app/login
+2026-06-12 11:33:21,265 - INFO - Login Test Passed
+2026-06-12 11:33:31,126 - INFO - Create Note Test Started
+2026-06-12 11:33:31,132 - INFO - Logging into application
+2026-06-12 11:33:34,256 - INFO - Creating note with title: Meeting with team
+2026-06-12 11:33:42,813 - INFO - Created Title: Meeting with team
+2026-06-12 11:33:42,814 - INFO - Created Description: Discuss project updates and next steps
+2026-06-12 11:33:42,814 - INFO - Create Note Test Passed
+2026-06-12 11:33:51,624 - INFO - Edit Note Test Started
+2026-06-12 11:33:51,637 - INFO - Logging into application
+2026-06-12 11:33:55,712 - INFO - Editing note title to: Grocery Shopping
+2026-06-12 11:34:03,070 - INFO - Available note titles: ['Grocery Shopping', 'Meeting with team', 'Grocery Shopping', 'Meeting with Team', 'Integration Test Note creation', 'Grocery Shopping', 'Meeting with Team', 'Meeting with team', 'Integration Test Note', 'Integration Test Edit', 'Grocery Shopping', 'Meeting with Team', 'Integration Test Edit', 'Grocery Shopping', 'Meeting with Team', 'Grocery Shopping', 'Integration Test Note', 'Integration Test Edit', 'Grocery Shopping', 'Meeting with Team']
+2026-06-12 11:34:03,070 - INFO - Edit Note Test Passed
+2026-06-12 11:34:11,615 - INFO - Delete Note Test Started
+2026-06-12 11:34:11,621 - INFO - Logging into application
+2026-06-12 11:34:14,785 - INFO - Deleting note
+2026-06-12 11:34:21,253 - INFO - Remaining Notes: ['Meeting with team', 'Integration Test Note', 'Integration Test Edit', 'Grocery Shopping', 'Meeting with Team', 'Integration Test Edit', 'Grocery Shopping', 'Meeting with Team', 'Grocery Shopping', 'Integration Test Note', 'Integration Test Edit', 'Grocery Shopping', 'Meeting with Team']
