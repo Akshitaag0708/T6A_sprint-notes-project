@@ -9,36 +9,25 @@ from utils.logger import get_logger
 logger = get_logger()
 
 @pytest.mark.integration
-def test_validate_note_exists_in_api(
-        browser,
-        api_client
-):
-    logger.info(
-        "Integration Test Started - UI Create → API Validate"
-    )
+def test_validate_note_exists_in_api(browser, api_client):
 
-    # Config
+    logger.info("Integration Test Started - UI Create to API Validate" )
+
     config = ConfigReader.read_config()
-
-    # Test Data
-    data = DataReader.read_json(
-        "test_data/create_note.json"
-    )
-
+    data = DataReader.read_json("test_data/create_note.json")
     note = data["integration_note"]
 
-    # Page Objects
     login_page = LoginPage(browser)
     notes_page = NotesPage(browser)
 
-    # UI Login
+    logger.info("Logging into application via ui")
 
     login_page.login(
         config["qa"]["email"],
         config["qa"]["password"]
     )
 
-    # UI Create Note
+    logger.info("Creating a note via ui")
 
     notes_page.create_note(
         category=note["category"],
@@ -46,7 +35,7 @@ def test_validate_note_exists_in_api(
         description=note["description"]
     )
 
-    # API Get Notes
+    logger.info("Getting all notes via api")
 
     response = (
         api_client["notes_api"]
@@ -63,18 +52,10 @@ def test_validate_note_exists_in_api(
 
     for api_note in notes:
 
-        if (
-            api_note["title"]
-            == note["title"]
-            and
-            api_note["description"]
-            == note["description"]
-        ):
-
+        if (api_note["title"] == note["title"] and api_note["description"] == note["description"]):
             matched_note = api_note
             break
 
-    # Validation
     assert matched_note is not None, (
         "Created note not found in API response"
     )
@@ -84,9 +65,5 @@ def test_validate_note_exists_in_api(
     assert  matched_note["description"] == note["description"]
 
     assert  matched_note["category"] == note["category"]
-    logger.info(
-        f"Validated Note Found: {matched_note['title']}"
-    )
-    logger.info(
-        "Integration Test Passed"
-    )
+
+    logger.info( "Integration Test Passed")

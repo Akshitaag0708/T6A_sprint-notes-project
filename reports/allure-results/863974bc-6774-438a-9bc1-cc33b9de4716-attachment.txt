@@ -1,0 +1,2 @@
+[32mINFO    [0m NotesFramework:test_invalid_login_api.py:19 Invalid Login Test Started - invalid_email
+[32mINFO    [0m NotesFramework:test_invalid_login_api.py:36 Invalid Login Test Passed - invalid_email

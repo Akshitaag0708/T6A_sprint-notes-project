@@ -1,0 +1,2 @@
+[32mINFO    [0m NotesFramework:test_get_notes.py:10 Testing get_all_notes
+[32mINFO    [0m NotesFramework:test_get_notes.py:34 Getting all notes via api test passed

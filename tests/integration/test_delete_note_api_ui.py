@@ -1,5 +1,4 @@
 import pytest
-
 from config.config_reader import ConfigReader
 from pages.login_page import LoginPage
 from pages.notes_page import NotesPage
@@ -9,23 +8,15 @@ from utils.logger import get_logger
 logger = get_logger()
 
 @pytest.mark.integration
-def test_delete_note_api_ui(
-        browser,
-        api_client
-):
-    logger.info(
-        "Integration Test Started - API Delete → UI Validate"
-    )
+def test_delete_note_api_ui( browser,api_client):
+
+    logger.info("Integration Test Started - API Delete to UI Validate")
 
     config = ConfigReader.read_config()
-
-    data = DataReader.read_json(
-        "test_data/create_note.json"
-    )
-
+    data = DataReader.read_json("test_data/create_note.json")
     note = data["integration_delete_note"]
 
-    # Create Note via API
+    logger.info("Creating note via api")
     create_response = (
         api_client["notes_api"].create_note(
             category=note["category"],
@@ -42,7 +33,7 @@ def test_delete_note_api_ui(
         .json()["data"]["id"]
     )
 
-    # Delete Note via API
+    logger.info("Deleting note via api")
     delete_response = (
         api_client["notes_api"].delete_note(
             note_id=note_id,
@@ -52,7 +43,7 @@ def test_delete_note_api_ui(
 
     assert delete_response.status_code == 200
 
-    # Login UI
+    logger.info("Logging into application via UI")
     login_page = LoginPage(browser)
     notes_page = NotesPage(browser)
 
@@ -61,19 +52,11 @@ def test_delete_note_api_ui(
         config["qa"]["password"]
     )
 
-    # Refresh UI
+    logger.info("Refreshing notes page to reflect API changes")
     notes_page.refresh_page()
 
-    # Get all visible note titles
     all_titles = (notes_page.get_all_note_titles())
 
-    # Validate note is missing
-    assert (note["title"] not in all_titles), (
-        f"Deleted note "
-        f"'{note['title']}' "
-        f"is still visible in UI"
-    )
+    assert (note["title"] not in all_titles), "Deleted note title still found in UI"
 
-    logger.info(
-        "Integration Test Passed"
-    )
+    logger.info("Integration Test Passed")

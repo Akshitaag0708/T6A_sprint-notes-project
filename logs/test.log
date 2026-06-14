@@ -111,3 +111,1453 @@
 2026-06-12 11:34:11,621 - INFO - Logging into application
 2026-06-12 11:34:14,785 - INFO - Deleting note
 2026-06-12 11:34:21,253 - INFO - Remaining Notes: ['Meeting with team', 'Integration Test Note', 'Integration Test Edit', 'Grocery Shopping', 'Meeting with Team', 'Integration Test Edit', 'Grocery Shopping', 'Meeting with Team', 'Grocery Shopping', 'Integration Test Note', 'Integration Test Edit', 'Grocery Shopping', 'Meeting with Team']
+2026-06-12 13:34:53,293 - INFO - API Login Test Started
+2026-06-12 13:34:55,074 - INFO - API Login Test Passed
+2026-06-12 13:48:27,157 - INFO - Edit Note Test Started
+2026-06-12 13:48:33,659 - INFO - Create Note Test Started
+2026-06-12 13:48:33,672 - INFO - Logging into application
+2026-06-12 13:48:41,761 - INFO - Creating note with title: Meeting with team
+2026-06-12 13:48:56,750 - INFO - Invalid Create Note Test Started - missing_title
+2026-06-12 13:49:05,155 - INFO - Logging into application
+2026-06-12 13:49:11,336 - INFO - Screenshot saved: screenshots/invalid_create_note_missing_title.png
+2026-06-12 13:49:11,336 - INFO - Executing scenario: missing_title
+2026-06-12 13:49:11,853 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 13:49:11,864 - INFO - Invalid Create Note Test Passed - missing_title
+2026-06-12 13:49:15,894 - INFO - Invalid Create Note Test Started - missing_description
+2026-06-12 13:49:22,417 - INFO - Logging into application
+2026-06-12 13:49:30,504 - INFO - Screenshot saved: screenshots/invalid_create_note_missing_description.png
+2026-06-12 13:49:30,504 - INFO - Executing scenario: missing_description
+2026-06-12 13:49:31,323 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 13:49:31,333 - INFO - Invalid Create Note Test Passed - missing_description
+2026-06-12 13:49:46,734 - INFO - Invalid Create Note Test Started - all_fields_empty
+2026-06-12 13:49:48,636 - INFO - Created Title: Meeting with team
+2026-06-12 13:49:48,637 - INFO - Created Description: Discuss project updates and next steps
+2026-06-12 13:49:48,637 - INFO - Create Note Test Passed
+2026-06-12 13:49:51,772 - INFO - Logging into application
+2026-06-12 13:49:59,651 - INFO - Delete Note Test Started
+2026-06-12 13:49:59,669 - INFO - Logging into application
+2026-06-12 13:50:05,314 - INFO - Creating note for delete test
+2026-06-12 13:50:18,672 - INFO - Screenshot saved: screenshots/invalid_create_note_all_fields_empty.png
+2026-06-12 13:50:18,672 - INFO - Executing scenario: all_fields_empty
+2026-06-12 13:50:19,006 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 13:50:19,014 - INFO - Invalid Create Note Test Passed - all_fields_empty
+2026-06-12 13:50:21,542 - INFO - Invalid Login Test Started - invalid_password
+2026-06-12 13:50:25,758 - INFO - Trying login with email: agakshita7@gmail.com
+2026-06-12 13:50:27,531 - INFO - Invalid Login Test Started - invalid_email
+2026-06-12 13:50:28,794 - INFO - Screenshot saved: reports/screenshots/invalid_password.png
+2026-06-12 13:50:28,811 - INFO - Current URL: https://practice.expandtesting.com/notes/app/login
+2026-06-12 13:50:28,821 - INFO - Invalid Login Test Passed - invalid_password
+2026-06-12 13:50:35,770 - INFO - Trying login with email: wrong@gmail.com
+2026-06-12 13:50:42,965 - INFO - Login Test Started
+2026-06-12 13:50:42,984 - INFO - Attempting login with user: agakshita7@gmail.com
+2026-06-12 13:50:46,825 - INFO - Current URL after login: https://practice.expandtesting.com/notes/app/login
+2026-06-12 13:50:46,834 - INFO - Login Test Passed
+2026-06-12 13:51:01,261 - INFO - Screenshot saved: reports/screenshots/invalid_email.png
+2026-06-12 13:51:01,278 - INFO - Current URL: https://practice.expandtesting.com/notes/app/login#google_vignette
+2026-06-12 13:51:01,293 - INFO - Invalid Login Test Passed - invalid_email
+2026-06-12 13:58:13,608 - INFO - Create Note Test Started
+2026-06-12 13:58:13,620 - INFO - Logging into application
+2026-06-12 13:58:30,104 - INFO - Delete Note Test Started
+2026-06-12 13:58:30,110 - INFO - Logging into application
+2026-06-12 13:58:34,954 - INFO - Creating note for delete test
+2026-06-12 13:58:40,728 - INFO - Test note created successfully
+2026-06-12 13:58:40,728 - INFO - Deleting created note
+2026-06-12 13:58:45,272 - INFO - Remaining Notes: []
+2026-06-12 13:58:45,272 - INFO - Delete Note Test Passed
+2026-06-12 13:58:53,913 - INFO - Edit Note Test Started
+2026-06-12 13:59:04,237 - INFO - Test note created successfully
+2026-06-12 14:00:00,925 - INFO - Invalid Create Note Test Started - missing_title
+2026-06-12 14:00:06,102 - INFO - Logging into application
+2026-06-12 14:00:31,411 - INFO - Screenshot saved: screenshots/invalid_create_note_missing_title.png
+2026-06-12 14:00:31,411 - INFO - Executing scenario: missing_title
+2026-06-12 14:00:31,835 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 14:00:31,842 - INFO - Invalid Create Note Test Passed - missing_title
+2026-06-12 14:00:40,899 - INFO - Invalid Create Note Test Started - missing_description
+2026-06-12 14:00:45,971 - INFO - Logging into application
+2026-06-12 14:00:52,274 - INFO - Screenshot saved: screenshots/invalid_create_note_missing_description.png
+2026-06-12 14:00:52,275 - INFO - Executing scenario: missing_description
+2026-06-12 14:00:52,664 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 14:00:52,671 - INFO - Invalid Create Note Test Passed - missing_description
+2026-06-12 14:01:01,674 - INFO - Invalid Create Note Test Started - all_fields_empty
+2026-06-12 14:01:05,040 - INFO - Logging into application
+2026-06-12 14:01:10,908 - INFO - Screenshot saved: screenshots/invalid_create_note_all_fields_empty.png
+2026-06-12 14:01:10,909 - INFO - Executing scenario: all_fields_empty
+2026-06-12 14:01:11,012 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 14:01:11,017 - INFO - Invalid Create Note Test Passed - all_fields_empty
+2026-06-12 14:01:19,537 - INFO - Invalid Login Test Started - invalid_email
+2026-06-12 14:01:23,455 - INFO - Trying login with email: wrong@gmail.com
+2026-06-12 14:01:48,033 - INFO - Screenshot saved: reports/screenshots/invalid_email.png
+2026-06-12 14:01:48,040 - INFO - Current URL: https://practice.expandtesting.com/notes/app/login
+2026-06-12 14:01:48,047 - INFO - Invalid Login Test Passed - invalid_email
+2026-06-12 14:01:57,181 - INFO - Invalid Login Test Started - invalid_password
+2026-06-12 14:02:00,937 - INFO - Trying login with email: agakshita7@gmail.com
+2026-06-12 14:02:25,163 - INFO - Screenshot saved: reports/screenshots/invalid_password.png
+2026-06-12 14:02:25,171 - INFO - Current URL: https://practice.expandtesting.com/notes/app/login
+2026-06-12 14:02:25,177 - INFO - Invalid Login Test Passed - invalid_password
+2026-06-12 14:02:35,019 - INFO - Login Test Started
+2026-06-12 14:02:35,025 - INFO - Attempting login with user: agakshita7@gmail.com
+2026-06-12 14:02:40,049 - INFO - Current URL after login: https://practice.expandtesting.com/notes/app/login
+2026-06-12 14:02:40,054 - INFO - Login Test Passed
+2026-06-12 14:03:18,634 - INFO - Create Note Test Started
+2026-06-12 14:03:18,651 - INFO - Logging into application
+2026-06-12 14:03:24,133 - INFO - Creating note with title: Meeting with team
+2026-06-12 14:04:11,332 - INFO - Created Title: Meeting with team
+2026-06-12 14:04:11,333 - INFO - Created Description: Discuss project updates and next steps
+2026-06-12 14:04:11,333 - INFO - Create Note Test Passed
+2026-06-12 14:04:35,613 - INFO - Edit Note Test Started
+2026-06-12 14:04:46,994 - INFO - Test note created successfully
+2026-06-12 14:05:11,622 - INFO - Available note titles: ['Meeting with manager', 'Meeting with team']
+2026-06-12 14:05:11,622 - INFO - Edit Note Test Passed
+2026-06-12 14:09:39,738 - INFO - API Login Test Started
+2026-06-12 14:09:40,538 - INFO - API Login Test Passed
+2026-06-12 14:11:03,553 - INFO - Integration Test Passed
+2026-06-12 14:15:40,246 - INFO - Integration Test Started - UI Edit to API Validate
+2026-06-12 14:15:40,360 - INFO - Integration Test Started - API Delete to UI Validate
+2026-06-12 14:16:19,598 - INFO - Integration Test Passed
+2026-06-12 14:16:36,290 - INFO - Integration Test Passed
+2026-06-12 14:16:47,207 - INFO - Integration Test Started - UI Create to API Validate
+2026-06-12 14:18:06,231 - INFO - API Login Test Started
+2026-06-12 14:18:06,917 - INFO - API Login Test Passed
+2026-06-12 14:18:19,068 - INFO - Integration Test Started - API Delete to UI Validate
+2026-06-12 14:18:30,168 - INFO - Integration Test Passed
+2026-06-12 14:18:43,154 - INFO - Integration Test Started - UI Edit to API Validate
+2026-06-12 14:19:02,511 - INFO - Integration Test Started - UI Create to API Validate
+2026-06-12 14:20:22,235 - INFO - Integration Test Started - API Delete to UI Validate
+2026-06-12 14:21:17,451 - INFO - Integration Test Passed
+2026-06-12 14:21:30,167 - INFO - Integration Test Started - UI Edit to API Validate
+2026-06-12 14:22:37,988 - INFO - Integration Test Started - UI Create to API Validate
+2026-06-12 14:22:47,938 - INFO - Validated Note Found: Integration Test Note
+2026-06-12 14:22:47,938 - INFO - Integration Test Passed
+2026-06-12 14:25:54,217 - INFO - Integration Test Started - API Delete to UI Validate
+2026-06-12 14:26:07,809 - INFO - Integration Test Passed
+2026-06-12 14:26:17,845 - INFO - Integration Test Started - UI Edit to API Validate
+2026-06-12 14:27:16,672 - INFO - Integration Test Passed
+2026-06-12 14:27:29,223 - INFO - Integration Test Started - UI Create to API Validate
+2026-06-12 14:27:39,610 - INFO - Validated Note Found: Integration Test Note
+2026-06-12 14:27:39,610 - INFO - Integration Test Passed
+2026-06-12 14:28:16,194 - INFO - API Login Test Started
+2026-06-12 14:28:16,909 - INFO - API Login Test Passed
+2026-06-12 14:28:29,948 - INFO - Integration Test Started - API Delete to UI Validate
+2026-06-12 14:29:20,985 - INFO - Integration Test Passed
+2026-06-12 14:29:31,111 - INFO - Integration Test Started - UI Edit to API Validate
+2026-06-12 14:29:42,478 - INFO - Integration Test Started - UI Create to API Validate
+2026-06-12 16:41:34,926 - INFO - API Login Test Started
+2026-06-12 16:41:36,059 - INFO - API Login Test Passed
+2026-06-12 16:42:03,182 - INFO - Integration Test Started - API Delete to UI Validate
+2026-06-12 16:42:10,272 - INFO - Integration Test Passed
+2026-06-12 16:42:20,551 - INFO - Integration Test Started - UI Create to API Validate
+2026-06-12 16:47:24,169 - INFO - Integration Test Started - API Delete to UI Validate
+2026-06-12 16:47:32,012 - INFO - Integration Test Started - UI Create to API Validate
+2026-06-12 16:47:39,816 - INFO - Integration Test Passed
+2026-06-12 16:48:08,248 - INFO - Validated Note Found: Integration Test Note
+2026-06-12 16:48:08,248 - INFO - Integration Test Passed
+2026-06-12 16:48:49,056 - INFO - API Login Test Started
+2026-06-12 16:48:50,605 - INFO - API Login Test Passed
+2026-06-12 16:49:23,542 - INFO - Integration Test Started - API Delete to UI Validate
+2026-06-12 16:49:34,767 - INFO - Integration Test Passed
+2026-06-12 16:50:05,077 - INFO - Integration Test Started - UI Create to API Validate
+2026-06-12 16:50:15,673 - INFO - Validated Note Found: Integration Test Note
+2026-06-12 16:50:15,673 - INFO - Integration Test Passed
+2026-06-12 16:50:50,829 - INFO - Create Note Test Started
+2026-06-12 16:50:50,842 - INFO - Logging into application
+2026-06-12 16:50:53,886 - INFO - Creating note with title: Meeting with team
+2026-06-12 16:51:23,920 - INFO - Created Title: Meeting with team
+2026-06-12 16:51:23,921 - INFO - Created Description: Discuss project updates and next steps
+2026-06-12 16:51:23,921 - INFO - Create Note Test Passed
+2026-06-12 16:51:34,687 - INFO - Delete Note Test Started
+2026-06-12 16:51:34,700 - INFO - Logging into application
+2026-06-12 16:51:41,808 - INFO - Creating note for delete test
+2026-06-12 16:51:48,151 - INFO - Test note created successfully
+2026-06-12 16:51:48,151 - INFO - Deleting created note
+2026-06-12 16:51:56,840 - INFO - Remaining Notes: ['Meeting with team', 'Integration Test Note', 'Grocery Shopping', 'Meeting with Team', 'Integration Test Note', 'Grocery Shopping', 'Meeting with Team', 'Grocery Shopping', 'Meeting with Team', 'Integration Test Note', 'Integration Test Edit', 'Integration Test Note', 'Integration Test Note creation', 'Grocery Shopping', 'Meeting with Team']
+2026-06-12 16:51:56,840 - INFO - Delete Note Test Passed
+2026-06-12 16:52:14,835 - INFO - Edit Note Test Started
+2026-06-12 16:52:23,819 - INFO - Test note created successfully
+2026-06-12 16:52:35,399 - INFO - Available note titles: ['Meeting with manager', 'Meeting with team', 'Integration Test Note', 'Grocery Shopping', 'Meeting with Team', 'Integration Test Note', 'Grocery Shopping', 'Meeting with Team', 'Grocery Shopping', 'Meeting with Team', 'Integration Test Note', 'Integration Test Edit', 'Integration Test Note', 'Integration Test Note creation', 'Grocery Shopping', 'Meeting with Team']
+2026-06-12 16:52:35,399 - INFO - Edit Note Test Passed
+2026-06-12 16:52:45,495 - INFO - Invalid Create Note Test Started - missing_title
+2026-06-12 16:52:52,189 - INFO - Logging into application
+2026-06-12 16:52:57,392 - INFO - Screenshot saved: screenshots/invalid_create_note_missing_title.png
+2026-06-12 16:52:57,392 - INFO - Executing scenario: missing_title
+2026-06-12 16:52:57,982 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 16:52:57,996 - INFO - Invalid Create Note Test Passed - missing_title
+2026-06-12 16:53:10,027 - INFO - Invalid Create Note Test Started - missing_description
+2026-06-12 16:53:12,925 - INFO - Logging into application
+2026-06-12 16:53:17,617 - INFO - Screenshot saved: screenshots/invalid_create_note_missing_description.png
+2026-06-12 16:53:17,618 - INFO - Executing scenario: missing_description
+2026-06-12 16:53:18,447 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 16:53:18,460 - INFO - Invalid Create Note Test Passed - missing_description
+2026-06-12 16:53:34,370 - INFO - Invalid Create Note Test Started - all_fields_empty
+2026-06-12 16:53:50,400 - INFO - Logging into application
+2026-06-12 16:53:55,236 - INFO - Screenshot saved: screenshots/invalid_create_note_all_fields_empty.png
+2026-06-12 16:53:55,236 - INFO - Executing scenario: all_fields_empty
+2026-06-12 16:53:55,344 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 16:53:55,358 - INFO - Invalid Create Note Test Passed - all_fields_empty
+2026-06-12 16:54:09,842 - INFO - Invalid Login Test Started - invalid_email
+2026-06-12 16:54:18,359 - INFO - Trying login with email: wrong@gmail.com
+2026-06-12 16:54:26,720 - INFO - Screenshot saved: reports/screenshots/invalid_email.png
+2026-06-12 16:54:26,740 - INFO - Current URL: https://practice.expandtesting.com/notes/app/login
+2026-06-12 16:54:26,763 - INFO - Invalid Login Test Passed - invalid_email
+2026-06-12 16:54:35,821 - INFO - Invalid Login Test Started - invalid_password
+2026-06-12 16:54:39,720 - INFO - Trying login with email: agakshita7@gmail.com
+2026-06-12 16:54:42,880 - INFO - Screenshot saved: reports/screenshots/invalid_password.png
+2026-06-12 16:54:42,892 - INFO - Current URL: https://practice.expandtesting.com/notes/app/login
+2026-06-12 16:54:42,905 - INFO - Invalid Login Test Passed - invalid_password
+2026-06-12 16:54:53,062 - INFO - Login Test Started
+2026-06-12 16:54:53,066 - INFO - Attempting login with user: agakshita7@gmail.com
+2026-06-12 16:54:55,904 - INFO - Current URL after login: https://practice.expandtesting.com/notes/app/login
+2026-06-12 16:54:55,908 - INFO - Login Test Passed
+2026-06-12 16:58:01,423 - INFO - Integration Test Started - API Delete to UI Validate
+2026-06-12 16:58:01,841 - INFO - Integration Test Started - UI Edit to API Validate
+2026-06-12 16:58:12,757 - INFO - Integration Test Passed
+2026-06-12 16:58:22,617 - INFO - Integration Test Passed
+2026-06-12 16:58:25,844 - INFO - Integration Test Started - UI Create to API Validate
+2026-06-12 16:58:36,286 - INFO - Validated Note Found: Integration Test Note
+2026-06-12 16:58:36,286 - INFO - Integration Test Passed
+2026-06-12 16:59:15,332 - INFO - API Login Test Started
+2026-06-12 16:59:16,651 - INFO - API Login Test Passed
+2026-06-12 16:59:45,026 - INFO - Integration Test Started - API Delete to UI Validate
+2026-06-12 17:00:03,805 - INFO - Integration Test Passed
+2026-06-12 17:00:16,072 - INFO - Integration Test Started - UI Edit to API Validate
+2026-06-12 17:00:30,000 - INFO - Integration Test Passed
+2026-06-12 17:00:45,499 - INFO - Integration Test Started - UI Create to API Validate
+2026-06-12 17:00:59,547 - INFO - Validated Note Found: Integration Test Note
+2026-06-12 17:00:59,547 - INFO - Integration Test Passed
+2026-06-12 17:01:14,655 - INFO - Create Note Test Started
+2026-06-12 17:01:14,664 - INFO - Logging into application
+2026-06-12 17:01:18,482 - INFO - Creating note with title: Meeting with team
+2026-06-12 17:01:37,674 - INFO - Created Title: Meeting with team
+2026-06-12 17:01:37,674 - INFO - Created Description: Discuss project updates and next steps
+2026-06-12 17:01:37,674 - INFO - Create Note Test Passed
+2026-06-12 17:01:48,336 - INFO - Delete Note Test Started
+2026-06-12 17:01:48,352 - INFO - Logging into application
+2026-06-12 17:01:56,402 - INFO - Creating note for delete test
+2026-06-12 17:02:02,442 - INFO - Test note created successfully
+2026-06-12 17:02:02,442 - INFO - Deleting created note
+2026-06-12 17:02:21,756 - INFO - Remaining Notes: ['Meeting with team', 'Integration Test Note', 'Integration Test Edit', 'Grocery Shopping', 'Meeting with Team', 'Integration Test Note', 'Integration Test Edit', 'Meeting with manager', 'Meeting with team', 'Integration Test Note', 'Grocery Shopping', 'Meeting with Team', 'Integration Test Note', 'Grocery Shopping', 'Meeting with Team', 'Grocery Shopping', 'Meeting with Team', 'Integration Test Note', 'Integration Test Edit', 'Integration Test Note', 'Integration Test Note creation', 'Grocery Shopping', 'Meeting with Team']
+2026-06-12 17:02:21,756 - INFO - Delete Note Test Passed
+2026-06-12 17:02:37,691 - INFO - Edit Note Test Started
+2026-06-12 17:02:48,657 - INFO - Test note created successfully
+2026-06-12 17:03:00,809 - INFO - Available note titles: ['Meeting with manager', 'Meeting with team', 'Integration Test Note', 'Integration Test Edit', 'Grocery Shopping', 'Meeting with Team', 'Integration Test Note', 'Integration Test Edit', 'Meeting with manager', 'Meeting with team', 'Integration Test Note', 'Grocery Shopping', 'Meeting with Team', 'Integration Test Note', 'Grocery Shopping', 'Meeting with Team', 'Grocery Shopping', 'Meeting with Team', 'Integration Test Note', 'Integration Test Edit', 'Integration Test Note', 'Integration Test Note creation', 'Grocery Shopping', 'Meeting with Team']
+2026-06-12 17:03:00,809 - INFO - Edit Note Test Passed
+2026-06-12 17:03:15,240 - INFO - Invalid Create Note Test Started - missing_title
+2026-06-12 17:03:25,375 - INFO - Logging into application
+2026-06-12 17:03:29,550 - INFO - Screenshot saved: screenshots/invalid_create_note_missing_title.png
+2026-06-12 17:03:29,550 - INFO - Executing scenario: missing_title
+2026-06-12 17:03:30,170 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 17:03:30,181 - INFO - Invalid Create Note Test Passed - missing_title
+2026-06-12 17:03:41,921 - INFO - Invalid Create Note Test Started - missing_description
+2026-06-12 17:03:45,552 - INFO - Logging into application
+2026-06-12 17:03:49,611 - INFO - Screenshot saved: screenshots/invalid_create_note_missing_description.png
+2026-06-12 17:03:49,611 - INFO - Executing scenario: missing_description
+2026-06-12 17:03:50,163 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 17:03:50,173 - INFO - Invalid Create Note Test Passed - missing_description
+2026-06-12 17:04:03,536 - INFO - Invalid Create Note Test Started - all_fields_empty
+2026-06-12 17:04:08,108 - INFO - Logging into application
+2026-06-12 17:04:13,448 - INFO - Screenshot saved: screenshots/invalid_create_note_all_fields_empty.png
+2026-06-12 17:04:13,449 - INFO - Executing scenario: all_fields_empty
+2026-06-12 17:04:13,629 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 17:04:13,648 - INFO - Invalid Create Note Test Passed - all_fields_empty
+2026-06-12 17:04:28,766 - INFO - Invalid Login Test Started - invalid_email
+2026-06-12 17:04:38,656 - INFO - Trying login with email: wrong@gmail.com
+2026-06-12 17:04:42,073 - INFO - Screenshot saved: reports/screenshots/invalid_email.png
+2026-06-12 17:04:42,081 - INFO - Current URL: https://practice.expandtesting.com/notes/app/login
+2026-06-12 17:04:42,087 - INFO - Invalid Login Test Passed - invalid_email
+2026-06-12 17:04:56,414 - INFO - Invalid Login Test Started - invalid_password
+2026-06-12 17:05:02,088 - INFO - Trying login with email: agakshita7@gmail.com
+2026-06-12 17:05:05,207 - INFO - Screenshot saved: reports/screenshots/invalid_password.png
+2026-06-12 17:05:05,227 - INFO - Current URL: https://practice.expandtesting.com/notes/app/login
+2026-06-12 17:05:05,238 - INFO - Invalid Login Test Passed - invalid_password
+2026-06-12 17:05:15,643 - INFO - Login Test Started
+2026-06-12 17:05:15,665 - INFO - Attempting login with user: agakshita7@gmail.com
+2026-06-12 17:05:22,424 - INFO - Current URL after login: https://practice.expandtesting.com/notes/app/login
+2026-06-12 17:05:22,436 - INFO - Login Test Passed
+2026-06-12 17:06:05,440 - INFO - Edit Note Test Started
+2026-06-12 17:06:12,275 - INFO - Invalid Create Note Test Started - missing_description
+2026-06-12 17:06:15,596 - INFO - Create Note Test Started
+2026-06-12 17:06:15,608 - INFO - Logging into application
+2026-06-12 17:06:18,117 - INFO - Logging into application
+2026-06-12 17:06:19,847 - INFO - Creating note with title: Meeting with team
+2026-06-12 17:06:24,361 - INFO - Screenshot saved: screenshots/invalid_create_note_missing_description.png
+2026-06-12 17:06:24,362 - INFO - Executing scenario: missing_description
+2026-06-12 17:06:25,715 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 17:06:25,748 - INFO - Invalid Create Note Test Passed - missing_description
+2026-06-12 17:06:30,529 - INFO - Created Title: Meeting with team
+2026-06-12 17:06:30,529 - INFO - Created Description: Discuss project updates and next steps
+2026-06-12 17:06:30,530 - INFO - Create Note Test Passed
+2026-06-12 17:06:30,694 - INFO - Invalid Create Note Test Started - all_fields_empty
+2026-06-12 17:06:30,745 - INFO - Test note created successfully
+2026-06-12 17:06:36,956 - INFO - Delete Note Test Started
+2026-06-12 17:06:36,971 - INFO - Logging into application
+2026-06-12 17:06:37,247 - INFO - Logging into application
+2026-06-12 17:06:45,597 - INFO - Screenshot saved: screenshots/invalid_create_note_all_fields_empty.png
+2026-06-12 17:06:45,598 - INFO - Executing scenario: all_fields_empty
+2026-06-12 17:06:45,785 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 17:06:45,811 - INFO - Invalid Create Note Test Passed - all_fields_empty
+2026-06-12 17:06:46,750 - INFO - Creating note for delete test
+2026-06-12 17:06:52,770 - INFO - Test note created successfully
+2026-06-12 17:06:52,771 - INFO - Deleting created note
+2026-06-12 17:06:55,317 - INFO - Remaining Notes: ['Meeti', 'Meeting with team', 'Meeting with manager', 'Meeting with team', 'Integration Test Note', 'Integration Test Edit', 'Grocery Shopping', 'Meeting with Team', 'Integration Test Note', 'Integration Test Edit', 'Meeting with manager', 'Meeting with team', 'Integration Test Note', 'Grocery Shopping', 'Meeting with Team', 'Integration Test Note', 'Grocery Shopping', 'Meeting with Team', 'Grocery Shopping', 'Meeting with Team', 'Integration Test Note', 'Integration Test Edit', 'Integration Test Note', 'Integration Test Note creation', 'Grocery Shopping', 'Meeting with Team']
+2026-06-12 17:06:55,317 - INFO - Delete Note Test Passed
+2026-06-12 17:06:56,485 - INFO - Invalid Login Test Started - invalid_email
+2026-06-12 17:07:01,103 - INFO - Trying login with email: wrong@gmail.com
+2026-06-12 17:07:04,259 - INFO - Screenshot saved: reports/screenshots/invalid_email.png
+2026-06-12 17:07:04,270 - INFO - Current URL: https://practice.expandtesting.com/notes/app/login
+2026-06-12 17:07:04,276 - INFO - Invalid Login Test Passed - invalid_email
+2026-06-12 17:07:13,529 - INFO - Invalid Login Test Started - invalid_password
+2026-06-12 17:07:17,832 - INFO - Trying login with email: agakshita7@gmail.com
+2026-06-12 17:07:18,664 - INFO - Login Test Started
+2026-06-12 17:07:18,676 - INFO - Attempting login with user: agakshita7@gmail.com
+2026-06-12 17:07:21,095 - INFO - Screenshot saved: reports/screenshots/invalid_password.png
+2026-06-12 17:07:21,101 - INFO - Current URL after login: https://practice.expandtesting.com/notes/app/login
+2026-06-12 17:07:21,101 - INFO - Current URL: https://practice.expandtesting.com/notes/app/login
+2026-06-12 17:07:21,110 - INFO - Login Test Passed
+Passed - invalid_password
+2026-06-12 17:07:24,887 - INFO - Available note titles: ['Meeti', 'Meeting with team', 'Meeting with manager', 'Meeting with team', 'Integration Test Note', 'Integration Test Edit', 'Grocery Shopping', 'Meeting with Team', 'Integration Test Note', 'Integration Test Edit', 'Meeting with manager', 'Meeting with team', 'Integration Test Note', 'Grocery Shopping', 'Meeting with Team', 'Integration Test Note', 'Grocery Shopping', 'Meeting with Team', 'Grocery Shopping', 'Meeting with Team', 'Integration Test Note', 'Integration Test Edit', 'Integration Test Note', 'Integration Test Note creation', 'Grocery Shopping', 'Meeting with Team']
+2026-06-12 17:07:24,887 - INFO - Edit Note Test Passed
+2026-06-12 17:07:28,657 - INFO - Invalid Create Note Test Started - missing_title
+2026-06-12 17:07:34,980 - INFO - Logging into application
+2026-06-12 17:07:39,661 - INFO - Screenshot saved: screenshots/invalid_create_note_missing_title.png
+2026-06-12 17:07:39,662 - INFO - Executing scenario: missing_title
+2026-06-12 17:07:40,180 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 17:07:40,192 - INFO - Invalid Create Note Test Passed - missing_title
+2026-06-12 17:09:28,042 - INFO - API Login Test Started
+2026-06-12 17:09:29,554 - INFO - API Login Test Passed
+2026-06-12 17:10:03,030 - INFO - Integration Test Started - API Delete to UI Validate
+2026-06-12 17:10:04,767 - INFO - Integration Test Started - UI Edit to API Validate
+2026-06-12 17:10:25,186 - INFO - Integration Test Passed
+2026-06-12 17:10:30,719 - INFO - Integration Test Passed
+2026-06-12 17:10:41,110 - INFO - Integration Test Started - UI Create to API Validate
+2026-06-12 17:11:04,828 - INFO - Validated Note Found: Integration Test Note
+2026-06-12 17:11:04,828 - INFO - Integration Test Passed
+2026-06-12 17:11:43,408 - INFO - Edit Note Test Started
+2026-06-12 17:11:47,439 - INFO - Create Note Test Started
+2026-06-12 17:11:47,448 - INFO - Logging into application
+2026-06-12 17:11:52,013 - INFO - Creating note with title: Meeting with team
+2026-06-12 17:11:54,222 - INFO - Test note created successfully
+2026-06-12 17:12:14,022 - INFO - Created Title: Meeting with team
+2026-06-12 17:12:14,023 - INFO - Created Description: Discuss project updates and next steps
+2026-06-12 17:12:14,023 - INFO - Create Note Test Passed
+2026-06-12 17:12:17,193 - INFO - Available note titles: ['Meeting with manager', 'Meeting with team', 'Integration Test Note', 'Integration Test Edit', 'Grocery Shopping', 'Meeting with Team', 'Meeti', 'Meeting with team', 'Meeting with manager', 'Meeting with teamSoftware Testing courses', 'Integration Test Note', 'Integration Test Edit', 'Grocery Shopping', 'Meeting with Team', 'Integration Test Note', 'Integration Test Edit', 'Meeting with manager', 'Meeting with team', 'Integration Test Note', 'Grocery Shopping', 'Meeting with Team', 'Integration Test Note', 'Grocery Shopping', 'Meeting with Team', 'Grocery Shopping', 'Meeting with Team', 'Integration Test Note', 'Integration Test Edit', 'Integration Test Note', 'Integration Test Note creation', 'Grocery Shopping', 'Meeting with Team']
+2026-06-12 17:12:17,194 - INFO - Edit Note Test Passed
+2026-06-12 17:12:39,620 - INFO - Invalid Create Note Test Started - missing_title
+2026-06-12 17:12:40,474 - INFO - Delete Note Test Started
+2026-06-12 17:12:40,489 - INFO - Logging into application
+2026-06-12 17:12:43,205 - INFO - Creating note for delete test
+2026-06-12 17:12:45,220 - INFO - Logging into application
+2026-06-12 17:12:49,347 - INFO - Test note created successfully
+2026-06-12 17:12:49,348 - INFO - Deleting created note
+2026-06-12 17:12:49,368 - INFO - Screenshot saved: screenshots/invalid_create_note_missing_title.png
+2026-06-12 17:12:49,368 - INFO - Executing scenario: missing_title
+2026-06-12 17:12:50,034 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 17:12:50,047 - INFO - Invalid Create Note Test Passed - missing_title
+2026-06-12 17:13:01,135 - INFO - Remaining Notes: ['Meeting with manager', 'Meeting with team', 'Integration Test Note', 'Integration Test Edit', 'Grocery Shopping', 'Meeting with Team', 'Meeti', 'Meeting with team', 'Meeting with manager', 'Meeting with team', 'Integration Test Note', 'Integration Test Edit', 'Grocery Shopping', 'Meeting with Team', 'Integration Test Note', 'Integration Test Edit', 'Meeting with manager', 'Meeting with team', 'Integration Test Note', 'Grocery Shopping', 'Meeting with Team', 'Integration Test Note', 'Grocery Shopping', 'Meeting with Team', 'Grocery Shopping', 'Meeting with Team', 'Integration Test Note', 'Integration Test Edit', 'Integration Test Note', 'Integration Test Note creation', 'Grocery Shopping', 'Meeting with Team']
+2026-06-12 17:13:01,136 - INFO - Delete Note Test Passed
+2026-06-12 17:13:03,497 - INFO - Invalid Create Note Test Started - all_fields_empty
+2026-06-12 17:13:04,939 - INFO - Invalid Create Note Test Started - missing_description
+2026-06-12 17:13:08,107 - INFO - Logging into application
+2026-06-12 17:13:12,233 - INFO - Screenshot saved: screenshots/invalid_create_note_all_fields_empty.png
+2026-06-12 17:13:12,234 - INFO - Executing scenario: all_fields_empty
+2026-06-12 17:13:12,322 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 17:13:12,341 - INFO - Invalid Create Note Test Passed - all_fields_empty
+2026-06-12 17:13:16,078 - INFO - Logging into application
+2026-06-12 17:13:21,703 - INFO - Screenshot saved: screenshots/invalid_create_note_missing_description.png
+2026-06-12 17:13:21,703 - INFO - Executing scenario: missing_description
+2026-06-12 17:13:22,507 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 17:13:22,516 - INFO - Invalid Create Note Test Passed - missing_description
+2026-06-12 17:13:27,571 - INFO - Invalid Login Test Started - invalid_email
+2026-06-12 17:13:35,495 - INFO - Trying login with email: wrong@gmail.com
+2026-06-12 17:13:38,508 - INFO - Screenshot saved: reports/screenshots/invalid_email.png
+2026-06-12 17:13:38,528 - INFO - Current URL: https://practice.expandtesting.com/notes/app/login
+2026-06-12 17:13:38,537 - INFO - Invalid Login Test Passed - invalid_email
+2026-06-12 17:13:38,869 - INFO - Invalid Login Test Started - invalid_password
+2026-06-12 17:13:43,367 - INFO - Trying login with email: agakshita7@gmail.com
+2026-06-12 17:13:46,616 - INFO - Screenshot saved: reports/screenshots/invalid_password.png
+2026-06-12 17:13:46,629 - INFO - Current URL: https://practice.expandtesting.com/notes/app/login
+2026-06-12 17:13:46,644 - INFO - Invalid Login Test Passed - invalid_password
+2026-06-12 17:13:48,039 - INFO - Login Test Started
+2026-06-12 17:13:48,052 - INFO - Attempting login with user: agakshita7@gmail.com
+2026-06-12 17:13:51,272 - INFO - Current URL after login: https://practice.expandtesting.com/notes/app/login
+2026-06-12 17:13:51,279 - INFO - Login Test Passed
+2026-06-12 17:40:51,849 - INFO - API Login Test Started
+2026-06-12 17:40:52,896 - INFO - API Login Test Passed
+2026-06-12 17:41:01,776 - INFO - Integration Test Started - UI Edit to API Validate
+2026-06-12 17:41:15,500 - INFO - Integration Test Started - API Delete to UI Validate
+2026-06-12 17:41:33,811 - INFO - Integration Test Passed
+2026-06-12 17:41:41,330 - INFO - Integration Test Passed
+2026-06-12 17:41:42,713 - INFO - Integration Test Started - UI Create to API Validate
+2026-06-12 17:42:01,977 - INFO - Validated Note Found: Integration Test Note
+2026-06-12 17:42:01,977 - INFO - Integration Test Passed
+2026-06-12 17:42:49,973 - INFO - Create Note Test Started
+2026-06-12 17:42:49,977 - INFO - Logging into application
+2026-06-12 17:42:52,912 - INFO - Edit Note Test Started
+2026-06-12 17:42:54,478 - INFO - Creating note with title: Meeting with team
+2026-06-12 17:43:01,328 - INFO - Created Title: Meeting with team
+2026-06-12 17:43:01,328 - INFO - Created Description: Discuss project updates and next steps
+2026-06-12 17:43:01,328 - INFO - Create Note Test Passed
+2026-06-12 17:43:06,855 - INFO - Test note created successfully
+2026-06-12 17:43:16,006 - INFO - Available note titles: ['Meeting with manager', 'Meeting with team', 'Integration Test Note', 'Integration Test Edit', 'Grocery Shopping', 'Meeting with Team', 'Meeting with manager', 'Meeting with team', 'Integration Test Note', 'Integration Test Edit', 'Grocery Shopping', 'Meeting with Team', 'Meeti', 'Meeting with team', 'Meeting with manager', 'Meeting with team', 'Integration Test Note', 'Integration Test Edit', 'Grocery Shopping', 'Meeting with Team', 'Integration Test Note', 'Integration Test Edit', 'Meeting with manager', 'Meeting with team', 'Integration Test Note', 'Grocery Shopping', 'Meeting with Team', 'Integration Test Note', 'Grocery Shopping', 'Meeting with Team', 'Grocery Shopping', 'Meeting with Team', 'Integration Test Note', 'Integration Test Edit', 'Integration Test Note', 'Integration Test Note creation', 'Grocery Shopping', 'Meeting with Team']
+2026-06-12 17:43:16,006 - INFO - Edit Note Test Passed
+2026-06-12 17:43:25,252 - INFO - Delete Note Test Started
+2026-06-12 17:43:25,257 - INFO - Logging into application
+2026-06-12 17:43:41,644 - INFO - Creating note for delete test
+2026-06-12 17:43:49,055 - INFO - Test note created successfully
+2026-06-12 17:43:49,056 - INFO - Deleting created note
+2026-06-12 17:44:04,121 - INFO - Invalid Create Note Test Started - missing_title
+2026-06-12 17:44:21,864 - INFO - Logging into application
+2026-06-12 17:44:26,548 - INFO - Screenshot saved: screenshots/invalid_create_note_missing_title.png
+2026-06-12 17:44:26,548 - INFO - Executing scenario: missing_title
+2026-06-12 17:44:27,097 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 17:44:27,102 - INFO - Invalid Create Note Test Passed - missing_title
+2026-06-12 17:44:51,198 - INFO - Invalid Create Note Test Started - all_fields_empty
+2026-06-12 17:44:58,346 - INFO - Logging into application
+2026-06-12 17:45:02,858 - INFO - Screenshot saved: screenshots/invalid_create_note_all_fields_empty.png
+2026-06-12 17:45:02,858 - INFO - Executing scenario: all_fields_empty
+2026-06-12 17:45:02,972 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 17:45:02,983 - INFO - Invalid Create Note Test Passed - all_fields_empty
+2026-06-12 17:45:08,674 - INFO - Invalid Create Note Test Started - missing_description
+2026-06-12 17:45:12,540 - INFO - Logging into application
+2026-06-12 17:45:13,993 - INFO - Invalid Login Test Started - invalid_email
+2026-06-12 17:45:16,990 - INFO - Screenshot saved: screenshots/invalid_create_note_missing_description.png
+2026-06-12 17:45:16,991 - INFO - Executing scenario: missing_description
+2026-06-12 17:45:17,364 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 17:45:17,370 - INFO - Invalid Create Note Test Passed - missing_description
+2026-06-12 17:45:17,548 - INFO - Trying login with email: wrong@gmail.com
+2026-06-12 17:45:20,575 - INFO - Screenshot saved: reports/screenshots/invalid_email.png
+2026-06-12 17:45:20,584 - INFO - Current URL: https://practice.expandtesting.com/notes/app/login
+2026-06-12 17:45:20,595 - INFO - Invalid Login Test Passed - invalid_email
+2026-06-12 17:45:23,594 - INFO - Invalid Login Test Started - invalid_password
+2026-06-12 17:45:28,923 - INFO - Trying login with email: agakshita7@gmail.com
+2026-06-12 17:45:31,756 - INFO - Login Test Started
+2026-06-12 17:45:31,763 - INFO - Attempting login with user: agakshita7@gmail.com
+2026-06-12 17:45:32,095 - INFO - Screenshot saved: reports/screenshots/invalid_password.png
+2026-06-12 17:45:32,105 - INFO - Current URL: https://practice.expandtesting.com/notes/app/login
+2026-06-12 17:45:32,114 - INFO - Invalid Login Test Passed - invalid_password
+2026-06-12 17:45:35,207 - INFO - Current URL after login: https://practice.expandtesting.com/notes/app/login
+2026-06-12 17:45:35,213 - INFO - Login Test Passed
+2026-06-12 17:50:19,624 - INFO - API Login Test Started
+2026-06-12 17:50:20,607 - INFO - API Login Test Passed
+2026-06-12 17:50:38,227 - INFO - Integration Test Started - API Delete to UI Validate
+2026-06-12 17:50:46,164 - INFO - Integration Test Passed
+2026-06-12 17:51:06,460 - INFO - Integration Test Started - UI Create to API Validate
+2026-06-12 17:51:15,674 - INFO - Integration Test Started - UI Edit to API Validate
+2026-06-12 17:51:16,908 - INFO - Validated Note Found: Integration Test Note
+2026-06-12 17:51:16,909 - INFO - Integration Test Passed
+2026-06-12 17:51:27,815 - INFO - Integration Test Passed
+2026-06-12 17:51:50,794 - INFO - Create Note Test Started
+2026-06-12 17:51:50,805 - INFO - Logging into application
+2026-06-12 17:51:52,090 - INFO - Edit Note Test Started
+2026-06-12 17:51:54,113 - INFO - Creating note with title: Meeting with team
+2026-06-12 17:52:00,463 - INFO - Created Title: meeting with head
+2026-06-12 17:52:00,463 - INFO - Created Description: Discuss about growth and next steps
+2026-06-12 17:52:00,569 - INFO - Test note created successfully
+2026-06-12 17:52:08,660 - INFO - Available note titles: ['Meeting with manager', 'Meeting with team', 'Integration Test Edit', 'Integration Test Note', 'Meeting with Team', 'Grocery Shopping']
+2026-06-12 17:52:08,660 - INFO - Edit Note Test Passed
+2026-06-12 17:52:14,854 - INFO - Invalid Create Note Test Started - missing_title
+2026-06-12 17:52:17,879 - INFO - Delete Note Test Started
+2026-06-12 17:52:17,886 - INFO - Logging into application
+2026-06-12 17:52:22,901 - INFO - Creating note for delete test
+2026-06-12 17:52:29,041 - INFO - Logging into application
+2026-06-12 17:52:29,071 - INFO - Test note created successfully
+2026-06-12 17:52:29,071 - INFO - Deleting created note
+2026-06-12 17:52:36,413 - INFO - Remaining Notes: ['Meeting with manager', 'Meeting with team', 'Integration Test Edit', 'Integration Test Note', 'Meeting with Team', 'Grocery Shopping']
+2026-06-12 17:52:36,414 - INFO - Delete Note Test Passed
+2026-06-12 17:52:36,968 - INFO - Screenshot saved: screenshots/invalid_create_note_missing_title.png
+2026-06-12 17:52:36,968 - INFO - Executing scenario: missing_title
+2026-06-12 17:52:37,554 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 17:52:37,574 - INFO - Invalid Create Note Test Passed - missing_title
+2026-06-12 17:52:47,922 - INFO - Invalid Create Note Test Started - all_fields_empty
+2026-06-12 17:52:48,416 - INFO - Invalid Create Note Test Started - missing_description
+2026-06-12 17:52:54,608 - INFO - Logging into application
+2026-06-12 17:52:55,568 - INFO - Logging into application
+2026-06-12 17:53:00,047 - INFO - Screenshot saved: screenshots/invalid_create_note_all_fields_empty.png
+2026-06-12 17:53:00,047 - INFO - Executing scenario: all_fields_empty
+2026-06-12 17:53:00,148 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 17:53:00,158 - INFO - Invalid Create Note Test Passed - all_fields_empty
+2026-06-12 17:53:00,392 - INFO - Screenshot saved: screenshots/invalid_create_note_missing_description.png
+2026-06-12 17:53:00,393 - INFO - Executing scenario: missing_description
+2026-06-12 17:53:00,858 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 17:53:00,866 - INFO - Invalid Create Note Test Passed - missing_description
+2026-06-12 17:53:23,642 - INFO - Invalid Login Test Started - invalid_password
+2026-06-12 17:53:27,352 - INFO - Invalid Login Test Started - invalid_email
+2026-06-12 17:53:33,482 - INFO - Trying login with email: agakshita7@gmail.com
+2026-06-12 17:53:34,209 - INFO - Trying login with email: wrong@gmail.com
+2026-06-12 17:53:37,143 - INFO - Screenshot saved: reports/screenshots/invalid_password.png
+2026-06-12 17:53:37,156 - INFO - Current URL: https://practice.expandtesting.com/notes/app/login
+2026-06-12 17:53:37,167 - INFO - Invalid Login Test Passed - invalid_password
+2026-06-12 17:53:37,763 - INFO - Screenshot saved: reports/screenshots/invalid_email.png
+2026-06-12 17:53:37,775 - INFO - Current URL: https://practice.expandtesting.com/notes/app/login
+2026-06-12 17:53:37,785 - INFO - Invalid Login Test Passed - invalid_email
+2026-06-12 17:53:49,120 - INFO - Login Test Started
+2026-06-12 17:53:49,138 - INFO - Attempting login with user: agakshita7@gmail.com
+2026-06-12 17:53:52,576 - INFO - Current URL after login: https://practice.expandtesting.com/notes/app/login
+2026-06-12 17:53:52,580 - INFO - Login Test Passed
+2026-06-12 17:56:25,298 - INFO - Edit Note Test Started
+2026-06-12 17:57:18,094 - INFO - Invalid Create Note Test Started - missing_title
+2026-06-12 17:57:20,826 - INFO - Create Note Test Started
+2026-06-12 17:57:20,830 - INFO - Logging into application
+2026-06-12 17:57:27,352 - INFO - Logging into application
+2026-06-12 17:57:27,759 - INFO - Creating note with title: Meeting with team
+2026-06-12 17:57:38,696 - INFO - Screenshot saved: screenshots/invalid_create_note_missing_title.png
+2026-06-12 17:57:38,696 - INFO - Executing scenario: missing_title
+2026-06-12 17:57:39,568 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 17:57:39,578 - INFO - Invalid Create Note Test Passed - missing_title
+2026-06-12 17:57:41,669 - INFO - Created Title: Meeting with team
+2026-06-12 17:57:41,670 - INFO - Created Description: Discuss project updates and next steps
+2026-06-12 17:57:41,670 - INFO - Create Note Test Passed
+2026-06-12 17:57:53,658 - INFO - Invalid Login Test Started - invalid_email
+2026-06-12 17:57:59,760 - INFO - Delete Note Test Started
+2026-06-12 17:57:59,769 - INFO - Logging into application
+2026-06-12 17:58:03,413 - INFO - Creating note for delete test
+2026-06-12 17:58:06,112 - INFO - Trying login with email: wrong@gmail.com
+2026-06-12 17:58:06,813 - INFO - Invalid Create Note Test Started - missing_description
+2026-06-12 17:58:07,233 - INFO - Logging into application
+2026-06-12 17:58:09,947 - INFO - Test note created successfully
+2026-06-12 17:58:09,948 - INFO - Deleting created note
+2026-06-12 17:58:10,004 - INFO - Screenshot saved: reports/screenshots/invalid_email.png
+2026-06-12 17:58:10,018 - INFO - Current URL: https://practice.expandtesting.com/notes/app/login
+2026-06-12 17:58:10,028 - INFO - Invalid Login Test Passed - invalid_email
+2026-06-12 17:58:12,168 - INFO - Remaining Notes: ['Meeting with team']
+2026-06-12 17:58:12,168 - INFO - Delete Note Test Passed
+2026-06-12 17:58:21,128 - INFO - Login Test Started
+2026-06-12 17:58:21,135 - INFO - Attempting login with user: agakshita7@gmail.com
+2026-06-12 17:58:24,732 - INFO - Invalid Login Test Started - invalid_password
+2026-06-12 17:58:24,798 - INFO - Current URL after login: https://practice.expandtesting.com/notes/app/login
+2026-06-12 17:58:24,808 - INFO - Login Test Passed
+2026-06-12 17:58:31,990 - INFO - Trying login with email: agakshita7@gmail.com
+2026-06-12 17:58:34,242 - INFO - Screenshot saved: screenshots/invalid_create_note_missing_description.png
+2026-06-12 17:58:34,243 - INFO - Executing scenario: missing_description
+2026-06-12 17:58:34,982 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 17:58:34,993 - INFO - Invalid Create Note Test Passed - missing_description
+2026-06-12 17:58:35,561 - INFO - Screenshot saved: reports/screenshots/invalid_password.png
+2026-06-12 17:58:35,570 - INFO - Current URL: https://practice.expandtesting.com/notes/app/login
+2026-06-12 17:58:35,577 - INFO - Invalid Login Test Passed - invalid_password
+2026-06-12 17:58:46,443 - INFO - Invalid Create Note Test Started - all_fields_empty
+2026-06-12 17:58:58,948 - INFO - Logging into application
+2026-06-12 17:59:09,246 - INFO - Screenshot saved: screenshots/invalid_create_note_all_fields_empty.png
+2026-06-12 17:59:09,246 - INFO - Executing scenario: all_fields_empty
+2026-06-12 17:59:09,369 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 17:59:09,391 - INFO - Invalid Create Note Test Passed - all_fields_empty
+2026-06-12 18:02:00,532 - INFO - Edit Note Test Started
+2026-06-12 18:02:18,073 - INFO - Test note created successfully
+2026-06-12 18:02:25,603 - INFO - Available note titles: ['Meeting with manager', 'Meeting with team']
+2026-06-12 18:02:25,603 - INFO - Edit Note Test Passed
+2026-06-12 18:12:09,279 - INFO - Edit Note Test Started
+2026-06-12 18:12:37,094 - INFO - Create Note Test Started
+2026-06-12 18:12:37,110 - INFO - Logging into application
+2026-06-12 18:12:40,680 - INFO - Invalid Create Note Test Started - missing_description
+2026-06-12 18:12:45,471 - INFO - Creating note with title: Meeting with team
+2026-06-12 18:12:53,400 - INFO - Created Title: meeting with head
+2026-06-12 18:12:53,400 - INFO - Created Description: Discuss about growth and next steps
+2026-06-12 18:12:53,683 - INFO - Test note created successfully
+2026-06-12 18:12:57,998 - INFO - Logging into application
+2026-06-12 18:12:59,219 - INFO - Available note titles: ['Meeting with manager', 'Meeting with team', 'Meeting with manager', 'Meeting with team']
+2026-06-12 18:12:59,219 - INFO - Edit Note Test Passed
+2026-06-12 18:13:27,496 - INFO - Screenshot saved: screenshots/invalid_create_note_missing_description.png
+2026-06-12 18:13:27,496 - INFO - Executing scenario: missing_description
+2026-06-12 18:13:27,937 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 18:13:27,946 - INFO - Invalid Create Note Test Passed - missing_description
+2026-06-12 18:13:35,236 - INFO - Delete Note Test Started
+2026-06-12 18:13:35,247 - INFO - Logging into application
+2026-06-12 18:13:44,704 - INFO - Creating note for delete test
+2026-06-12 18:13:45,512 - INFO - Invalid Create Note Test Started - all_fields_empty
+2026-06-12 18:13:50,474 - INFO - Test note created successfully
+2026-06-12 18:13:50,474 - INFO - Deleting created note
+2026-06-12 18:13:58,769 - INFO - Logging into application
+2026-06-12 18:13:58,831 - INFO - Invalid Create Note Test Started - missing_title
+2026-06-12 18:14:06,313 - INFO - Screenshot saved: screenshots/invalid_create_note_all_fields_empty.png
+2026-06-12 18:14:06,314 - INFO - Executing scenario: all_fields_empty
+2026-06-12 18:14:06,400 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 18:14:06,414 - INFO - Invalid Create Note Test Passed - all_fields_empty
+2026-06-12 18:14:21,445 - INFO - Logging into application
+2026-06-12 18:14:24,390 - INFO - Login Test Started
+2026-06-12 18:14:24,397 - INFO - Attempting login with user: agakshita7@gmail.com
+2026-06-12 18:14:28,118 - INFO - Screenshot saved: screenshots/invalid_create_note_missing_title.png
+2026-06-12 18:14:28,118 - INFO - Executing scenario: missing_title
+2026-06-12 18:14:28,537 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 18:14:28,542 - INFO - Invalid Create Note Test Passed - missing_title
+2026-06-12 18:14:32,783 - INFO - Current URL after login: https://practice.expandtesting.com/notes/app/login
+2026-06-12 18:14:32,796 - INFO - Login Test Passed
+2026-06-12 18:14:36,236 - INFO - Remaining Notes: ['Meeting with manager', 'Meeting with team', 'Meeting with manager', 'Meeting with team']
+2026-06-12 18:14:36,236 - INFO - Delete Note Test Passed
+2026-06-12 18:14:49,122 - INFO - Invalid Login Test Started - invalid_password
+2026-06-12 18:15:01,811 - INFO - Trying login with email: agakshita7@gmail.com
+2026-06-12 18:15:02,758 - INFO - Invalid Login Test Started - invalid_email
+2026-06-12 18:15:11,614 - INFO - Screenshot saved: reports/screenshots/invalid_password.png
+2026-06-12 18:15:11,624 - INFO - Current URL: https://practice.expandtesting.com/notes/app/login#google_vignette
+2026-06-12 18:15:11,635 - INFO - Invalid Login Test Passed - invalid_password
+2026-06-12 18:15:17,417 - INFO - Trying login with email: wrong@gmail.com
+2026-06-12 18:15:20,971 - INFO - Screenshot saved: reports/screenshots/invalid_email.png
+2026-06-12 18:15:20,980 - INFO - Current URL: https://practice.expandtesting.com/notes/app/login
+2026-06-12 18:15:20,987 - INFO - Invalid Login Test Passed - invalid_email
+2026-06-12 18:20:23,655 - INFO - Edit Note Test Started
+2026-06-12 18:20:23,815 - INFO - Create Note Test Started
+2026-06-12 18:20:23,825 - INFO - Logging into application
+2026-06-12 18:20:27,158 - INFO - Creating note with title: Meeting with team
+2026-06-12 18:20:30,402 - INFO - Invalid Create Note Test Started - missing_description
+2026-06-12 18:20:30,719 - INFO - Logging into application
+2026-06-12 18:20:34,223 - INFO - Test note created successfully
+2026-06-12 18:20:34,983 - INFO - Created Title: Meeting with team
+2026-06-12 18:20:34,983 - INFO - Created Description: Discuss project updates and next steps
+2026-06-12 18:20:35,063 - INFO - Create Note Test Passed
+2026-06-12 18:20:39,326 - INFO - Available note titles: ['Meeting with manager', 'meeting with head']
+2026-06-12 18:20:39,327 - INFO - Edit Note Test Passed
+2026-06-12 18:20:43,562 - INFO - Screenshot saved: screenshots/invalid_create_note_missing_description.png
+2026-06-12 18:20:43,562 - INFO - Executing scenario: missing_description
+2026-06-12 18:20:44,069 - INFO - Delete Note Test Started
+2026-06-12 18:20:44,085 - INFO - Logging into application
+2026-06-12 18:20:44,759 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 18:20:44,801 - INFO - Invalid Create Note Test Passed - missing_description
+2026-06-12 18:20:51,227 - INFO - Invalid Create Note Test Started - missing_title
+2026-06-12 18:20:51,902 - INFO - Invalid Create Note Test Started - all_fields_empty
+2026-06-12 18:20:52,691 - INFO - Creating note for delete test
+2026-06-12 18:20:55,536 - INFO - Logging into application
+2026-06-12 18:20:57,016 - INFO - Logging into application
+2026-06-12 18:21:01,016 - INFO - Test note created successfully
+2026-06-12 18:21:01,017 - INFO - Deleting created note
+2026-06-12 18:21:02,449 - INFO - Screenshot saved: screenshots/invalid_create_note_all_fields_empty.png
+2026-06-12 18:21:02,449 - INFO - Executing scenario: all_fields_empty
+2026-06-12 18:21:02,637 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 18:21:02,651 - INFO - Invalid Create Note Test Passed - all_fields_empty
+2026-06-12 18:21:02,933 - INFO - Screenshot saved: screenshots/invalid_create_note_missing_title.png
+2026-06-12 18:21:02,935 - INFO - Executing scenario: missing_title
+2026-06-12 18:21:03,989 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 18:21:04,003 - INFO - Invalid Create Note Test Passed - missing_title
+2026-06-12 18:21:09,401 - INFO - Invalid Login Test Started - invalid_password
+2026-06-12 18:21:09,501 - INFO - Remaining Notes: ['Meeting with manager', 'meeting with head']
+2026-06-12 18:21:14,550 - INFO - Login Test Started
+2026-06-12 18:21:14,561 - INFO - Attempting login with user: agakshita7@gmail.com
+2026-06-12 18:21:18,703 - INFO - Trying login with email: agakshita7@gmail.com
+2026-06-12 18:21:18,982 - INFO - Invalid Login Test Started - invalid_email
+2026-06-12 18:21:19,731 - INFO - Current URL after login: https://practice.expandtesting.com/notes/app/login
+2026-06-12 18:21:19,753 - INFO - Login Test Passed
+2026-06-12 18:21:23,925 - INFO - Trying login with email: wrong@gmail.com
+2026-06-12 18:21:25,375 - INFO - Screenshot saved: reports/screenshots/invalid_password.png
+2026-06-12 18:21:25,384 - INFO - Current URL: https://practice.expandtesting.com/notes/app/login
+2026-06-12 18:21:25,391 - INFO - Invalid Login Test Passed - invalid_password
+2026-06-12 18:21:27,823 - INFO - Screenshot saved: reports/screenshots/invalid_email.png
+2026-06-12 18:21:27,830 - INFO - Current URL: https://practice.expandtesting.com/notes/app/login
+2026-06-12 18:21:27,837 - INFO - Invalid Login Test Passed - invalid_email
+2026-06-12 18:29:28,581 - INFO - Edit Note Test Started
+2026-06-12 18:29:36,318 - INFO - Create Note Test Started
+2026-06-12 18:29:36,332 - INFO - Logging into application
+2026-06-12 18:29:37,162 - INFO - Invalid Create Note Test Started - missing_description
+2026-06-12 18:29:39,493 - INFO - Creating note with title: Meeting with team
+2026-06-12 18:29:42,866 - INFO - Test note created successfully
+2026-06-12 18:29:43,574 - INFO - Logging into application
+2026-06-12 18:29:46,598 - INFO - Created Title: Meeting with team
+2026-06-12 18:29:46,599 - INFO - Created Description: Discuss project updates and next steps
+2026-06-12 18:29:46,663 - INFO - Create Note Test Passed
+2026-06-12 18:29:49,228 - INFO - Available note titles: ['Frontend Design Updates', 'Meeting with team']
+2026-06-12 18:29:49,228 - INFO - Edit Note Test Passed
+2026-06-12 18:29:49,466 - INFO - Screenshot saved: screenshots/invalid_create_note_missing_description.png
+2026-06-12 18:29:49,466 - INFO - Executing scenario: missing_description
+2026-06-12 18:29:50,028 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 18:29:50,051 - INFO - Invalid Create Note Test Passed - missing_description
+2026-06-12 18:29:51,221 - INFO - Delete Note Test Started
+2026-06-12 18:29:51,231 - INFO - Logging into application
+2026-06-12 18:29:58,921 - INFO - Creating note for delete test
+2026-06-12 18:29:59,156 - INFO - Invalid Create Note Test Started - missing_title
+2026-06-12 18:30:01,094 - INFO - Invalid Create Note Test Started - all_fields_empty
+2026-06-12 18:30:02,522 - INFO - Logging into application
+2026-06-12 18:30:04,770 - INFO - Test note created successfully
+2026-06-12 18:30:04,771 - INFO - Deleting created note
+2026-06-12 18:30:05,685 - INFO - Logging into application
+2026-06-12 18:30:07,524 - INFO - Screenshot saved: screenshots/invalid_create_note_missing_title.png
+2026-06-12 18:30:07,525 - INFO - Executing scenario: missing_title
+2026-06-12 18:30:08,062 - INFO - Remaining Notes: ['Backend Architecture Review', 'Frontend Design Updates', 'Meeting with team']
+2026-06-12 18:30:08,063 - INFO - Delete Note Test Passed
+2026-06-12 18:30:08,283 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 18:30:08,296 - INFO - Invalid Create Note Test Passed - missing_title
+2026-06-12 18:30:10,280 - INFO - Screenshot saved: screenshots/invalid_create_note_all_fields_empty.png
+2026-06-12 18:30:10,280 - INFO - Executing scenario: all_fields_empty
+2026-06-12 18:30:10,333 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 18:30:10,341 - INFO - Invalid Create Note Test Passed - all_fields_empty
+2026-06-12 18:30:12,909 - INFO - Invalid Login Test Started - invalid_password
+2026-06-12 18:30:15,283 - INFO - Login Test Started
+2026-06-12 18:30:15,297 - INFO - Attempting login with user: agakshita7@gmail.com
+2026-06-12 18:30:20,715 - INFO - Invalid Login Test Started - invalid_email
+2026-06-12 18:30:22,053 - INFO - Trying login with email: agakshita7@gmail.com
+2026-06-12 18:30:25,085 - INFO - Screenshot saved: reports/screenshots/invalid_password.png
+2026-06-12 18:30:25,094 - INFO - Current URL: https://practice.expandtesting.com/notes/app/login
+2026-06-12 18:30:25,146 - INFO - Invalid Login Test Passed - invalid_password
+2026-06-12 18:30:25,905 - INFO - Trying login with email: wrong@gmail.com
+2026-06-12 18:30:27,151 - INFO - Current URL after login: https://practice.expandtesting.com/notes/app/login
+2026-06-12 18:30:27,159 - INFO - Login Test Passed
+2026-06-12 18:30:29,412 - INFO - Screenshot saved: reports/screenshots/invalid_email.png
+2026-06-12 18:30:29,420 - INFO - Current URL: https://practice.expandtesting.com/notes/app/login
+2026-06-12 18:30:29,426 - INFO - Invalid Login Test Passed - invalid_email
+2026-06-12 18:31:14,289 - INFO - API Login Test Started
+2026-06-12 18:31:15,153 - INFO - API Login Test Passed
+2026-06-12 18:31:29,427 - INFO - Integration Test Started - API Delete to UI Validate
+2026-06-12 18:31:32,876 - INFO - Integration Test Started - UI Edit to API Validate
+2026-06-12 18:31:37,022 - INFO - Integration Test Started - UI Create to API Validate
+2026-06-12 18:31:42,687 - INFO - Integration Test Passed
+2026-06-12 18:31:46,409 - INFO - Integration Test Passed
+2026-06-12 18:31:48,591 - INFO - Validated Note Found: Integration Test Note
+2026-06-12 18:31:48,591 - INFO - Integration Test Passed
+2026-06-12 18:31:59,429 - INFO - Edit Note Test Started
+2026-06-12 18:32:05,153 - INFO - Create Note Test Started
+2026-06-12 18:32:05,162 - INFO - Logging into application
+2026-06-12 18:32:07,404 - INFO - Invalid Create Note Test Started - missing_description
+2026-06-12 18:32:09,386 - INFO - Creating note with title: Meeting with team
+2026-06-12 18:32:11,614 - INFO - Logging into application
+2026-06-12 18:32:15,659 - INFO - Test note created successfully
+2026-06-12 18:32:15,825 - INFO - Created Title: Database Optimization Plan
+2026-06-12 18:32:15,825 - INFO - Created Description: Discuss about growth and next steps
+2026-06-12 18:32:15,929 - INFO - Create Note Test Passed
+2026-06-12 18:32:16,157 - INFO - Screenshot saved: screenshots/invalid_create_note_missing_description.png
+2026-06-12 18:32:16,157 - INFO - Executing scenario: missing_description
+2026-06-12 18:32:16,503 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 18:32:16,511 - INFO - Invalid Create Note Test Passed - missing_description
+2026-06-12 18:32:20,124 - INFO - Delete Note Test Started
+2026-06-12 18:32:20,139 - INFO - Logging into application
+2026-06-12 18:32:21,134 - INFO - Invalid Create Note Test Started - all_fields_empty
+2026-06-12 18:32:23,882 - INFO - Available note titles: ['Frontend Design Updates', 'Meeting with team', 'Integration Test Edit', 'Integration Test Note', 'Grocery Shopping', 'Meeting with Team']
+2026-06-12 18:32:23,882 - INFO - Edit Note Test Passed
+2026-06-12 18:32:30,080 - INFO - Logging into application
+2026-06-12 18:32:33,620 - INFO - Creating note for delete test
+2026-06-12 18:32:33,915 - INFO - Screenshot saved: screenshots/invalid_create_note_all_fields_empty.png
+2026-06-12 18:32:33,915 - INFO - Executing scenario: all_fields_empty
+2026-06-12 18:32:34,031 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 18:32:34,039 - INFO - Invalid Create Note Test Passed - all_fields_empty
+2026-06-12 18:32:34,457 - INFO - Invalid Create Note Test Started - missing_title
+2026-06-12 18:32:39,161 - INFO - Logging into application
+2026-06-12 18:32:39,440 - INFO - Test note created successfully
+2026-06-12 18:32:39,442 - INFO - Deleting created note
+2026-06-12 18:32:39,629 - INFO - Invalid Login Test Started - invalid_password
+2026-06-12 18:32:43,298 - INFO - Screenshot saved: screenshots/invalid_create_note_missing_title.png
+2026-06-12 18:32:43,298 - INFO - Executing scenario: missing_title
+2026-06-12 18:32:44,623 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 18:32:44,632 - INFO - Invalid Create Note Test Passed - missing_title
+2026-06-12 18:32:45,068 - INFO - Remaining Notes: []
+2026-06-12 18:32:45,068 - INFO - Delete Note Test Passed
+2026-06-12 18:32:46,682 - INFO - Trying login with email: agakshita7@gmail.com
+2026-06-12 18:32:52,034 - INFO - Screenshot saved: reports/screenshots/invalid_password.png
+2026-06-12 18:32:52,051 - INFO - Current URL: https://practice.expandtesting.com/notes/app/login
+2026-06-12 18:32:52,066 - INFO - Invalid Login Test Passed - invalid_password
+2026-06-12 18:32:57,504 - INFO - Login Test Started
+2026-06-12 18:32:57,515 - INFO - Attempting login with user: agakshita7@gmail.com
+2026-06-12 18:32:59,594 - INFO - Invalid Login Test Started - invalid_email
+2026-06-12 18:33:00,698 - INFO - Current URL after login: https://practice.expandtesting.com/notes/app/login
+2026-06-12 18:33:00,704 - INFO - Login Test Passed
+2026-06-12 18:33:03,735 - INFO - Trying login with email: wrong@gmail.com
+2026-06-12 18:33:07,010 - INFO - Screenshot saved: reports/screenshots/invalid_email.png
+2026-06-12 18:33:07,023 - INFO - Current URL: https://practice.expandtesting.com/notes/app/login
+2026-06-12 18:33:07,034 - INFO - Invalid Login Test Passed - invalid_email
+2026-06-12 18:45:10,266 - INFO - API Login Test Started
+2026-06-12 18:45:11,132 - INFO - API Login Test Passed
+2026-06-12 18:47:48,024 - INFO - API Login Test Started
+2026-06-12 18:47:48,944 - INFO - API Login Test Passed
+2026-06-12 18:48:58,110 - INFO - Integration Test Started - API Delete to UI Validate
+2026-06-12 18:49:24,847 - INFO - Integration Test Started - UI Edit to API Validate
+2026-06-12 18:49:28,440 - INFO - Integration Test Started - UI Create to API Validate
+2026-06-12 18:49:34,461 - INFO - Integration Test Passed
+2026-06-12 18:51:13,840 - INFO - Validated Note Found: Integration Test Note
+2026-06-12 18:51:13,841 - INFO - Integration Test Passed
+2026-06-12 18:52:20,765 - INFO - Integration Test Started - API Delete to UI Validate
+2026-06-12 18:52:22,880 - INFO - Integration Test Started - UI Edit to API Validate
+2026-06-12 18:52:29,589 - INFO - Integration Test Passed
+2026-06-12 18:52:36,638 - INFO - Integration Test Passed
+2026-06-12 18:52:42,401 - INFO - Integration Test Started - UI Create to API Validate
+2026-06-12 18:52:52,560 - INFO - Validated Note Found: Integration Test Note
+2026-06-12 18:52:52,561 - INFO - Integration Test Passed
+2026-06-12 18:53:30,231 - INFO - API Login Test Started
+2026-06-12 18:53:31,030 - INFO - API Login Test Passed
+2026-06-12 18:53:47,912 - INFO - Integration Test Started - UI Create to API Validate
+2026-06-12 18:53:50,212 - INFO - Integration Test Started - API Delete to UI Validate
+2026-06-12 18:53:51,463 - INFO - Integration Test Started - UI Edit to API Validate
+2026-06-12 18:54:01,447 - INFO - Validated Note Found: Integration Test Note
+2026-06-12 18:54:01,447 - INFO - Integration Test Passed
+2026-06-12 18:54:03,526 - INFO - Integration Test Passed
+2026-06-12 18:54:07,938 - INFO - Integration Test Passed
+2026-06-12 18:54:26,851 - INFO - Create Note Test Started
+2026-06-12 18:54:26,864 - INFO - Logging into application
+2026-06-12 18:54:26,865 - INFO - Invalid Create Note Test Started - missing_description
+2026-06-12 18:54:27,192 - INFO - Logging into application
+2026-06-12 18:54:28,318 - INFO - Edit Note Test Started
+2026-06-12 18:54:38,362 - INFO - Test note created successfully
+2026-06-12 18:54:39,743 - INFO - Screenshot saved: screenshots/invalid_create_note_missing_description.png
+2026-06-12 18:54:39,743 - INFO - Executing scenario: missing_description
+2026-06-12 18:54:40,543 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 18:54:40,577 - INFO - Invalid Create Note Test Passed - missing_description
+2026-06-12 18:54:42,601 - INFO - Available note titles: ['Frontend Design Updates', 'Integration Test Edit', 'Integration Test Note', 'Grocery Shopping', 'Meeting with Team']
+2026-06-12 18:54:42,601 - INFO - Edit Note Test Passed
+2026-06-12 18:54:45,053 - INFO - Invalid Create Note Test Started - all_fields_empty
+2026-06-12 18:54:52,534 - INFO - Logging into application
+2026-06-12 18:54:52,764 - INFO - Invalid Create Note Test Started - missing_title
+2026-06-12 18:54:53,220 - INFO - Logging into application
+2026-06-12 18:54:54,273 - INFO - Creating note with title: Meeting with team
+2026-06-12 18:54:59,246 - INFO - Screenshot saved: screenshots/invalid_create_note_all_fields_empty.png
+2026-06-12 18:54:59,246 - INFO - Executing scenario: all_fields_empty
+2026-06-12 18:54:59,356 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 18:54:59,362 - INFO - Invalid Create Note Test Passed - all_fields_empty
+2026-06-12 18:55:00,926 - INFO - Created Title: Meeting with team
+2026-06-12 18:55:00,926 - INFO - Created Description: Discuss project updates and next steps
+2026-06-12 18:55:01,085 - INFO - Create Note Test Passed
+2026-06-12 18:55:06,235 - INFO - Invalid Login Test Started - invalid_email
+2026-06-12 18:55:09,306 - INFO - Screenshot saved: screenshots/invalid_create_note_missing_title.png
+2026-06-12 18:55:09,306 - INFO - Executing scenario: missing_title
+2026-06-12 18:55:10,313 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 18:55:10,349 - INFO - Invalid Create Note Test Passed - missing_title
+2026-06-12 18:55:12,523 - INFO - Delete Note Test Started
+2026-06-12 18:55:12,531 - INFO - Logging into application
+2026-06-12 18:55:16,720 - INFO - Creating note for delete test
+2026-06-12 18:55:16,799 - INFO - Trying login with email: wrong@gmail.com
+2026-06-12 18:55:22,986 - INFO - Test note created successfully
+2026-06-12 18:55:22,988 - INFO - Deleting created note
+2026-06-12 18:55:23,471 - INFO - Screenshot saved: reports/screenshots/invalid_email.png
+2026-06-12 18:55:23,509 - INFO - Current URL: https://practice.expandtesting.com/notes/app/login
+2026-06-12 18:55:23,526 - INFO - Invalid Login Test Passed - invalid_email
+2026-06-12 18:55:25,777 - INFO - Invalid Login Test Started - invalid_password
+2026-06-12 18:55:30,158 - INFO - Remaining Notes: ['Meeting with team', 'Frontend Design Updates', 'Integration Test Edit', 'Integration Test Note', 'Grocery Shopping', 'Meeting with Team']
+2026-06-12 18:55:30,158 - INFO - Delete Note Test Passed
+2026-06-12 18:55:30,677 - INFO - Trying login with email: agakshita7@gmail.com
+2026-06-12 18:55:34,330 - INFO - Screenshot saved: reports/screenshots/invalid_password.png
+2026-06-12 18:55:34,337 - INFO - Current URL: https://practice.expandtesting.com/notes/app/login
+2026-06-12 18:55:34,342 - INFO - Invalid Login Test Passed - invalid_password
+2026-06-12 18:55:38,948 - INFO - Login Test Started
+2026-06-12 18:55:38,957 - INFO - Attempting login with user: agakshita7@gmail.com
+2026-06-12 18:55:43,757 - INFO - Current URL after login: https://practice.expandtesting.com/notes/app/login
+2026-06-12 18:55:43,764 - INFO - Login Test Passed
+2026-06-12 19:08:06,415 - INFO - API Login Test Started
+2026-06-12 19:08:07,111 - INFO - API Login Test Passed
+2026-06-12 19:08:26,899 - INFO - Integration Test Started - UI Create to API Validate
+2026-06-12 19:08:28,412 - INFO - Integration Test Started - UI Edit to API Validate
+2026-06-12 19:08:29,865 - INFO - Integration Test Started - API Delete to UI Validate
+2026-06-12 19:08:43,025 - INFO - Validated Note Found: Integration Test Note
+2026-06-12 19:08:43,026 - INFO - Integration Test Passed
+2026-06-12 19:08:43,365 - INFO - Integration Test Passed
+2026-06-12 19:08:47,430 - INFO - Integration Test Passed
+2026-06-12 19:08:59,795 - INFO - Create Note Test Started
+2026-06-12 19:08:59,807 - INFO - Logging into application
+2026-06-12 19:09:05,301 - INFO - Edit Note Test Started
+2026-06-12 19:09:10,532 - INFO - Invalid Create Note Test Started - missing_description
+2026-06-12 19:09:10,824 - INFO - Logging into application
+2026-06-12 19:09:15,455 - INFO - Creating note with title: Meeting with team
+2026-06-12 19:09:21,006 - INFO - Screenshot saved: screenshots/invalid_create_note_missing_description.png
+2026-06-12 19:09:21,007 - INFO - Executing scenario: missing_description
+2026-06-12 19:09:21,323 - INFO - Test note created successfully
+2026-06-12 19:09:21,831 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 19:09:21,844 - INFO - Invalid Create Note Test Passed - missing_description
+2026-06-12 19:09:22,414 - INFO - Created Title: Meeting with team
+2026-06-12 19:09:22,414 - INFO - Created Description: Discuss project updates and next steps
+2026-06-12 19:09:22,587 - INFO - Create Note Test Passed
+2026-06-12 19:09:31,222 - INFO - Available note titles: ['Frontend Design Updates', 'Database Optimization Plan', 'Integration Test Edit', 'Integration Test Note', 'Grocery Shopping', 'Meeting with Team']
+2026-06-12 19:09:31,222 - INFO - Edit Note Test Passed
+2026-06-12 19:09:37,189 - INFO - Invalid Create Note Test Started - missing_title
+2026-06-12 19:09:37,270 - INFO - Delete Note Test Started
+2026-06-12 19:09:37,284 - INFO - Logging into application
+2026-06-12 19:09:37,541 - INFO - Logging into application
+2026-06-12 19:09:38,031 - INFO - Invalid Create Note Test Started - all_fields_empty
+2026-06-12 19:09:38,332 - INFO - Logging into application
+2026-06-12 19:09:41,715 - INFO - Creating note for delete test
+2026-06-12 19:09:47,677 - INFO - Test note created successfully
+2026-06-12 19:09:47,677 - INFO - Deleting created note
+2026-06-12 19:09:49,177 - INFO - Screenshot saved: screenshots/invalid_create_note_all_fields_empty.png
+2026-06-12 19:09:49,177 - INFO - Executing scenario: all_fields_empty
+2026-06-12 19:09:49,338 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 19:09:49,358 - INFO - Invalid Create Note Test Passed - all_fields_empty
+2026-06-12 19:09:49,860 - INFO - Screenshot saved: screenshots/invalid_create_note_missing_title.png
+2026-06-12 19:09:49,861 - INFO - Executing scenario: missing_title
+2026-06-12 19:09:50,626 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 19:09:50,634 - INFO - Invalid Create Note Test Passed - missing_title
+2026-06-12 19:09:54,848 - INFO - Remaining Notes: ['Frontend Design Updates', 'Database Optimization Plan', 'Integration Test Edit', 'Integration Test Note', 'Grocery Shopping', 'Meeting with Team']
+2026-06-12 19:09:55,374 - INFO - Invalid Login Test Started - invalid_email
+2026-06-12 19:09:55,936 - INFO - Login Test Started
+2026-06-12 19:09:55,949 - INFO - Attempting login with user: agakshita7@gmail.com
+2026-06-12 19:10:04,966 - INFO - Trying login with email: wrong@gmail.com
+2026-06-12 19:10:09,843 - INFO - Current URL after login: https://practice.expandtesting.com/notes/app/login
+2026-06-12 19:10:09,859 - INFO - Login Test Passed
+2026-06-12 19:10:13,008 - INFO - Invalid Login Test Started - invalid_password
+2026-06-12 19:10:13,269 - INFO - Screenshot saved: reports/screenshots/invalid_email.png
+2026-06-12 19:10:13,282 - INFO - Current URL: https://practice.expandtesting.com/notes/app/login
+2026-06-12 19:10:13,306 - INFO - Invalid Login Test Passed - invalid_email
+2026-06-12 19:10:16,422 - INFO - Trying login with email: agakshita7@gmail.com
+2026-06-12 19:10:19,493 - INFO - Screenshot saved: reports/screenshots/invalid_password.png
+2026-06-12 19:10:19,505 - INFO - Current URL: https://practice.expandtesting.com/notes/app/login
+2026-06-12 19:10:19,518 - INFO - Invalid Login Test Passed - invalid_password
+2026-06-12 19:11:23,131 - INFO - API Login Test Started
+2026-06-12 19:11:23,914 - INFO - API Login Test Passed
+2026-06-12 19:11:34,223 - INFO - Integration Test Started - API Delete to UI Validate
+2026-06-12 19:11:43,734 - INFO - Integration Test Started - UI Create to API Validate
+2026-06-12 19:11:55,626 - INFO - Validated Note Found: Integration Test Note
+2026-06-12 19:11:55,627 - INFO - Integration Test Passed
+2026-06-12 19:12:01,530 - INFO - Integration Test Started - UI Edit to API Validate
+2026-06-12 19:12:06,474 - INFO - Integration Test Passed
+2026-06-12 19:12:17,759 - INFO - Integration Test Passed
+2026-06-12 19:12:29,064 - INFO - Invalid Create Note Test Started - missing_description
+2026-06-12 19:12:37,736 - INFO - Logging into application
+2026-06-12 19:12:38,091 - INFO - Create Note Test Started
+2026-06-12 19:12:38,098 - INFO - Logging into application
+2026-06-12 19:12:42,025 - INFO - Screenshot saved: screenshots/invalid_create_note_missing_description.png
+2026-06-12 19:12:42,025 - INFO - Executing scenario: missing_description
+2026-06-12 19:12:42,739 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 19:12:42,745 - INFO - Invalid Create Note Test Passed - missing_description
+2026-06-12 19:12:44,128 - INFO - Creating note with title: Meeting with team
+2026-06-12 19:12:51,699 - INFO - Created Title: Meeting with team
+2026-06-12 19:12:51,699 - INFO - Created Description: Discuss project updates and next steps
+2026-06-12 19:12:51,755 - INFO - Create Note Test Passed
+2026-06-12 19:12:53,911 - INFO - Edit Note Test Started
+2026-06-12 19:12:56,301 - INFO - Delete Note Test Started
+2026-06-12 19:12:56,311 - INFO - Logging into application
+2026-06-12 19:12:59,507 - INFO - Invalid Create Note Test Started - all_fields_empty
+2026-06-12 19:13:04,989 - INFO - Test note created successfully
+2026-06-12 19:13:05,246 - INFO - Logging into application
+2026-06-12 19:13:10,475 - INFO - Screenshot saved: screenshots/invalid_create_note_all_fields_empty.png
+2026-06-12 19:13:10,475 - INFO - Executing scenario: all_fields_empty
+2026-06-12 19:13:10,708 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 19:13:10,723 - INFO - Invalid Create Note Test Passed - all_fields_empty
+2026-06-12 19:13:10,815 - INFO - Available note titles: ['Frontend Design Updates', 'Meeting with team', 'Integration Test Edit', 'Integration Test Note', 'Grocery Shopping', 'Meeting with Team']
+2026-06-12 19:13:10,816 - INFO - Edit Note Test Passed
+2026-06-12 19:13:15,433 - INFO - Invalid Create Note Test Started - missing_title
+2026-06-12 19:13:22,694 - INFO - Invalid Login Test Started - invalid_email
+2026-06-12 19:13:31,378 - INFO - Trying login with email: wrong@gmail.com
+2026-06-12 19:13:33,851 - INFO - Screenshot saved: reports/screenshots/invalid_email.png
+2026-06-12 19:13:33,866 - INFO - Current URL: https://practice.expandtesting.com/notes/app/login
+2026-06-12 19:13:33,876 - INFO - Invalid Login Test Passed - invalid_email
+2026-06-12 19:13:35,510 - INFO - Creating note for delete test
+2026-06-12 19:13:40,157 - INFO - Logging into application
+2026-06-12 19:13:41,724 - INFO - Test note created successfully
+2026-06-12 19:13:41,724 - INFO - Deleting created note
+2026-06-12 19:13:43,887 - INFO - Login Test Started
+2026-06-12 19:13:43,900 - INFO - Attempting login with user: agakshita7@gmail.com
+2026-06-12 19:13:47,942 - INFO - Screenshot saved: screenshots/invalid_create_note_missing_title.png
+2026-06-12 19:13:47,943 - INFO - Executing scenario: missing_title
+2026-06-12 19:13:48,075 - INFO - Current URL after login: https://practice.expandtesting.com/notes/app/login
+2026-06-12 19:13:48,085 - INFO - Login Test Passed
+2026-06-12 19:13:48,887 - INFO - Remaining Notes: ['Frontend Design Updates', 'Meeting with team', 'Integration Test Edit', 'Integration Test Note', 'Grocery Shopping', 'Meeting with Team']
+2026-06-12 19:13:48,887 - INFO - Delete Note Test Passed
+2026-06-12 19:13:48,921 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 19:13:48,939 - INFO - Invalid Create Note Test Passed - missing_title
+2026-06-12 19:13:58,788 - INFO - Invalid Login Test Started - invalid_password
+2026-06-12 19:13:59,043 - INFO - Trying login with email: agakshita7@gmail.com
+2026-06-12 19:14:10,783 - INFO - Screenshot saved: reports/screenshots/invalid_password.png
+2026-06-12 19:14:10,789 - INFO - Current URL: https://practice.expandtesting.com/notes/app/login
+2026-06-12 19:14:10,794 - INFO - Invalid Login Test Passed - invalid_password
+2026-06-12 19:20:45,339 - INFO - API Login Test Started
+2026-06-12 19:20:46,858 - INFO - API Login Test Passed
+2026-06-12 19:20:59,809 - INFO - Integration Test Started - UI Create to API Validate
+2026-06-12 19:21:08,331 - INFO - Integration Test Started - UI Edit to API Validate
+2026-06-12 19:22:59,172 - INFO - API Login Test Started
+2026-06-12 19:23:02,582 - INFO - API Login Test Passed
+2026-06-12 19:23:52,809 - INFO - Integration Test Started - API Delete to UI Validate
+2026-06-12 19:23:52,883 - INFO - Integration Test Started - UI Create to API Validate
+2026-06-12 19:23:53,836 - INFO - Integration Test Started - UI Edit to API Validate
+2026-06-12 19:24:07,338 - INFO - Integration Test Passed
+2026-06-12 19:24:09,891 - INFO - Validated Note Found: Integration Test Note
+2026-06-12 19:24:09,892 - INFO - Integration Test Passed
+2026-06-12 19:24:12,447 - INFO - Integration Test Passed
+2026-06-12 19:24:34,091 - INFO - Edit Note Test Started
+2026-06-12 19:24:34,142 - INFO - Create Note Test Started
+2026-06-12 19:24:34,156 - INFO - Logging into application
+2026-06-12 19:24:34,455 - INFO - Invalid Create Note Test Started - missing_description
+2026-06-12 19:24:40,458 - INFO - Logging into application
+2026-06-12 19:24:42,310 - INFO - Creating note with title: Meeting with team
+2026-06-12 19:24:47,536 - INFO - Screenshot saved: screenshots/invalid_create_note_missing_description.png
+2026-06-12 19:24:47,537 - INFO - Executing scenario: missing_description
+2026-06-12 19:24:48,205 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 19:24:48,217 - INFO - Invalid Create Note Test Passed - missing_description
+2026-06-12 19:24:52,380 - INFO - Test note created successfully
+2026-06-12 19:25:42,784 - INFO - Created Title: Database Optimization Plan
+2026-06-12 19:25:42,784 - INFO - Created Description: Discuss about growth and next steps
+2026-06-12 19:25:42,957 - INFO - Create Note Test Passed
+2026-06-12 19:26:12,001 - INFO - Delete Note Test Started
+2026-06-12 19:26:12,013 - INFO - Logging into application
+2026-06-12 19:26:34,126 - INFO - Available note titles: ['Database Optimization Plan', 'Meeting with team', 'Integration Test Edit', 'Integration Test Note', 'Grocery Shopping', 'Meeting with Team', 'Grocery Shopping', 'Meeting with Team']
+2026-06-12 19:30:54,896 - INFO - API Login Test Started
+2026-06-12 19:30:56,352 - INFO - API Login Test Passed
+2026-06-12 19:34:23,428 - INFO - API Login Test Started
+2026-06-12 19:34:24,779 - INFO - API Login Test Passed
+2026-06-12 19:36:08,203 - INFO - Integration Test Started - UI Create to API Validate
+2026-06-12 19:36:08,211 - INFO - Integration Test Started - API Delete to UI Validate
+2026-06-12 19:36:08,282 - INFO - Integration Test Started - UI Edit to API Validate
+2026-06-12 19:36:20,164 - INFO - Integration Test Passed
+2026-06-12 19:36:23,030 - INFO - Validated Note Found: Integration Test Note
+2026-06-12 19:36:23,031 - INFO - Integration Test Passed
+2026-06-12 19:36:24,709 - INFO - Integration Test Passed
+2026-06-12 19:38:29,837 - INFO - Invalid Create Note Test Started - missing_description
+2026-06-12 19:38:29,888 - INFO - Edit Note Test Started
+2026-06-12 19:38:30,737 - INFO - Create Note Test Started
+2026-06-12 19:38:30,746 - INFO - Logging into application
+2026-06-12 19:38:34,394 - INFO - Creating note with title: Meeting with team
+2026-06-12 19:38:39,574 - INFO - Test note created successfully
+2026-06-12 19:38:40,598 - INFO - Created Title: Meeting with team
+2026-06-12 19:38:40,599 - INFO - Created Description: Discuss project updates and next steps
+2026-06-12 19:38:40,739 - INFO - Create Note Test Passed
+2026-06-12 19:38:44,185 - INFO - Available note titles: ['Frontend Design Updates', 'Database Optimization Plan', 'Integration Test Edit', 'Integration Test Note', 'Grocery Shopping', 'Meeting with Team']
+2026-06-12 19:38:44,185 - INFO - Edit Note Test Passed
+2026-06-12 19:39:57,483 - INFO - Logging into application
+2026-06-12 19:40:02,172 - INFO - Screenshot saved: screenshots/invalid_create_note_missing_description.png
+2026-06-12 19:40:02,172 - INFO - Executing scenario: missing_description
+2026-06-12 19:40:02,736 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 19:40:02,746 - INFO - Invalid Create Note Test Passed - missing_description
+2026-06-12 19:42:24,827 - INFO - API Login Test Started
+2026-06-12 19:42:26,408 - INFO - API Login Test Passed
+2026-06-12 19:42:48,234 - INFO - Integration Test Started - API Delete to UI Validate
+2026-06-12 20:02:07,807 - INFO - API Login Test Started
+2026-06-12 20:02:08,578 - INFO - API Login Test Passed
+2026-06-12 20:02:54,470 - INFO - Integration Test Started - API Delete to UI Validate
+2026-06-12 20:02:55,805 - INFO - Integration Test Started - UI Create to API Validate
+2026-06-12 20:03:03,812 - INFO - Integration Test Passed
+2026-06-12 20:03:10,054 - INFO - Validated Note Found: Integration Test Note
+2026-06-12 20:03:10,054 - INFO - Integration Test Passed
+2026-06-12 20:03:16,956 - INFO - Integration Test Started - UI Edit to API Validate
+2026-06-12 20:03:30,958 - INFO - Integration Test Passed
+2026-06-12 20:03:42,124 - INFO - Edit Note Test Started
+2026-06-12 20:04:08,224 - INFO - Invalid Create Note Test Started - missing_description
+2026-06-12 20:04:09,088 - INFO - Create Note Test Started
+2026-06-12 20:04:09,095 - INFO - Logging into application
+2026-06-12 20:04:13,621 - INFO - Creating note with title: Meeting with team
+2026-06-12 20:04:14,154 - INFO - Logging into application
+2026-06-12 20:04:19,889 - INFO - Test note created successfully
+2026-06-12 20:04:20,964 - INFO - Created Title: Database Optimization Plan
+2026-06-12 20:04:20,964 - INFO - Created Description: Discuss about growth and next steps
+2026-06-12 20:04:21,316 - INFO - Create Note Test Passed
+2026-06-12 20:04:21,422 - INFO - Screenshot saved: screenshots/invalid_create_note_missing_description.png
+2026-06-12 20:04:21,422 - INFO - Executing scenario: missing_description
+2026-06-12 20:04:22,396 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 20:04:22,412 - INFO - Invalid Create Note Test Passed - missing_description
+2026-06-12 20:04:26,677 - INFO - Available note titles: ['Frontend Design Updates', 'Meeting with team', 'Integration Test Edit', 'Integration Test Note', 'Grocery Shopping', 'Meeting with Team']
+2026-06-12 20:04:26,677 - INFO - Edit Note Test Passed
+2026-06-12 20:04:27,465 - INFO - Delete Note Test Started
+2026-06-12 20:04:27,477 - INFO - Logging into application
+2026-06-12 20:04:33,809 - INFO - Invalid Create Note Test Started - all_fields_empty
+2026-06-12 20:04:34,133 - INFO - Logging into application
+2026-06-12 20:04:38,459 - INFO - Invalid Create Note Test Started - missing_title
+2026-06-12 20:04:38,740 - INFO - Creating note for delete test
+2026-06-12 20:04:42,096 - INFO - Logging into application
+2026-06-12 20:04:43,106 - INFO - Screenshot saved: screenshots/invalid_create_note_all_fields_empty.png
+2026-06-12 20:04:43,107 - INFO - Executing scenario: all_fields_empty
+2026-06-12 20:04:43,184 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 20:04:43,212 - INFO - Invalid Create Note Test Passed - all_fields_empty
+2026-06-12 20:04:45,239 - INFO - Test note created successfully
+2026-06-12 20:04:45,240 - INFO - Deleting created note
+2026-06-12 20:04:46,445 - INFO - Screenshot saved: screenshots/invalid_create_note_missing_title.png
+2026-06-12 20:04:46,445 - INFO - Executing scenario: missing_title
+2026-06-12 20:04:50,425 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 20:04:50,507 - INFO - Invalid Create Note Test Passed - missing_title
+2026-06-12 20:04:52,256 - INFO - Remaining Notes: ['Frontend Design Updates', 'Meeting with team', 'Integration Test Edit', 'Integration Test Note', 'Grocery Shopping', 'Meeting with Team']
+2026-06-12 20:04:52,256 - INFO - Delete Note Test Passed
+2026-06-12 20:04:57,003 - INFO - Login Test Started
+2026-06-12 20:04:57,018 - INFO - Attempting login with user: agakshita7@gmail.com
+2026-06-12 20:04:57,032 - INFO - Invalid Login Test Started - invalid_email
+2026-06-12 20:04:57,050 - INFO - Invalid Login Test Started - invalid_password
+2026-06-12 20:05:03,739 - INFO - Trying login with email: agakshita7@gmail.com
+2026-06-12 20:05:11,126 - INFO - Trying login with email: wrong@gmail.com
+2026-06-12 20:05:11,376 - INFO - Screenshot saved: reports/screenshots/invalid_password.png
+2026-06-12 20:05:11,404 - INFO - Current URL: https://practice.expandtesting.com/notes/app/login
+2026-06-12 20:05:11,430 - INFO - Invalid Login Test Passed - invalid_password
+2026-06-12 20:05:12,959 - INFO - Current URL after login: https://practice.expandtesting.com/notes/app/login
+2026-06-12 20:05:13,106 - INFO - Login Test Passed
+2026-06-12 20:05:15,302 - INFO - Screenshot saved: reports/screenshots/invalid_email.png
+2026-06-12 20:05:15,310 - INFO - Current URL: https://practice.expandtesting.com/notes/app/login
+2026-06-12 20:05:15,317 - INFO - Invalid Login Test Passed - invalid_email
+2026-06-12 20:13:29,706 - INFO - API Login Test Started
+2026-06-12 20:13:30,761 - INFO - API Login Test Passed
+2026-06-12 20:13:44,558 - INFO - Integration Test Started - UI Create to API Validate
+2026-06-12 20:13:46,006 - INFO - Integration Test Started - UI Edit to API Validate
+2026-06-12 20:13:47,082 - INFO - Integration Test Started - API Delete to UI Validate
+2026-06-12 20:14:10,507 - INFO - Validated Note Found: Integration Test Note
+2026-06-12 20:14:10,508 - INFO - Integration Test Passed
+2026-06-12 20:14:13,491 - INFO - Integration Test Passed
+2026-06-12 20:14:19,256 - INFO - Integration Test Passed
+2026-06-12 20:14:31,896 - INFO - Create Note Test Started
+2026-06-12 20:14:31,909 - INFO - Logging into application
+2026-06-12 20:14:38,769 - INFO - Edit Note Test Started
+2026-06-12 20:14:39,428 - INFO - Invalid Create Note Test Started - missing_description
+2026-06-12 20:14:47,426 - INFO - Logging into application
+2026-06-12 20:14:49,357 - INFO - Creating note with title: Meeting with team
+2026-06-12 20:14:56,299 - INFO - Test note created successfully
+2026-06-12 20:15:01,615 - INFO - Created Title: Meeting with team
+2026-06-12 20:15:01,615 - INFO - Created Description: Discuss project updates and next steps
+2026-06-12 20:15:01,948 - INFO - Create Note Test Passed
+2026-06-12 20:15:07,991 - INFO - Available note titles: ['Frontend Design Updates', 'Database Optimization Plan', 'Integration Test Edit', 'Integration Test Note creation', 'Grocery Shopping', 'Meeting with Team']
+2026-06-12 20:15:07,992 - INFO - Edit Note Test Passed
+2026-06-12 20:15:12,288 - INFO - Invalid Create Note Test Started - missing_title
+2026-06-12 20:15:14,929 - INFO - Screenshot saved: screenshots/invalid_create_note_missing_description.png
+2026-06-12 20:15:14,930 - INFO - Executing scenario: missing_description
+2026-06-12 20:15:16,122 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 20:15:16,132 - INFO - Invalid Create Note Test Passed - missing_description
+2026-06-12 20:15:17,109 - INFO - Delete Note Test Started
+2026-06-12 20:15:17,118 - INFO - Logging into application
+2026-06-12 20:15:21,494 - INFO - Invalid Create Note Test Started - all_fields_empty
+2026-06-12 20:15:23,374 - INFO - Creating note for delete test
+2026-06-12 20:15:25,332 - INFO - Logging into application
+2026-06-12 20:15:28,191 - INFO - Logging into application
+2026-06-12 20:15:29,875 - INFO - Test note created successfully
+2026-06-12 20:15:29,875 - INFO - Deleting created note
+2026-06-12 20:15:40,269 - INFO - Screenshot saved: screenshots/invalid_create_note_missing_title.png
+2026-06-12 20:15:40,269 - INFO - Executing scenario: missing_title
+2026-06-12 20:15:41,730 - INFO - Screenshot saved: screenshots/invalid_create_note_all_fields_empty.png
+2026-06-12 20:15:41,730 - INFO - Executing scenario: all_fields_empty
+2026-06-12 20:15:41,936 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 20:15:41,951 - INFO - Invalid Create Note Test Passed - all_fields_empty
+2026-06-12 20:15:42,571 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 20:15:42,588 - INFO - Invalid Create Note Test Passed - missing_title
+2026-06-12 20:15:43,185 - INFO - Remaining Notes: ['Frontend Design Updates', 'Database Optimization Plan', 'Integration Test Edit', 'Integration Test Note creation', 'Grocery Shopping', 'Meeting with Team']
+2026-06-12 20:15:50,791 - INFO - Login Test Started
+2026-06-12 20:15:50,803 - INFO - Attempting login with user: agakshita7@gmail.com
+2026-06-12 20:15:55,128 - INFO - Invalid Login Test Started - invalid_password
+2026-06-12 20:15:55,781 - INFO - Invalid Login Test Started - invalid_email
+2026-06-12 20:15:59,624 - INFO - Current URL after login: https://practice.expandtesting.com/notes/app/login
+2026-06-12 20:15:59,639 - INFO - Login Test Passed
+2026-06-12 20:15:59,833 - INFO - Trying login with email: wrong@gmail.com
+2026-06-12 20:16:07,910 - INFO - Trying login with email: agakshita7@gmail.com
+2026-06-12 20:16:09,205 - INFO - Screenshot saved: reports/screenshots/invalid_email.png
+2026-06-12 20:16:09,213 - INFO - Current URL: https://practice.expandtesting.com/notes/app/login
+2026-06-12 20:16:09,220 - INFO - Invalid Login Test Passed - invalid_email
+2026-06-12 20:16:31,947 - INFO - Screenshot saved: reports/screenshots/invalid_password.png
+2026-06-12 20:16:31,955 - INFO - Current URL: https://practice.expandtesting.com/notes/app/login
+2026-06-12 20:16:31,962 - INFO - Invalid Login Test Passed - invalid_password
+2026-06-12 20:32:41,100 - INFO - API Login Test Started
+2026-06-12 20:32:42,246 - INFO - API Login Test Passed
+2026-06-12 20:32:54,376 - INFO - Integration Test Started - UI Edit to API Validate
+2026-06-12 20:32:54,380 - INFO - Integration Test Started - UI Create to API Validate
+2026-06-12 20:33:01,365 - INFO - Integration Test Started - API Delete to UI Validate
+2026-06-12 20:33:14,439 - INFO - Validated Note Found: Integration Test Note
+2026-06-12 20:33:14,439 - INFO - Integration Test Passed
+2026-06-12 20:33:15,295 - INFO - Integration Test Passed
+2026-06-12 20:33:19,948 - INFO - Integration Test Passed
+2026-06-12 20:33:32,131 - INFO - Invalid Create Note Test Started - missing_description
+2026-06-12 20:33:35,643 - INFO - Create Note Test Started
+2026-06-12 20:33:35,655 - INFO - Logging into application
+2026-06-12 20:33:38,687 - INFO - Logging into application
+2026-06-12 20:33:38,688 - INFO - Edit Note Test Started
+2026-06-12 20:33:44,805 - INFO - Creating note with title: Meeting with team
+2026-06-12 20:33:47,143 - INFO - Screenshot saved: screenshots/invalid_create_note_missing_description.png
+2026-06-12 20:33:47,144 - INFO - Executing scenario: missing_description
+2026-06-12 20:33:48,461 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 20:33:48,474 - INFO - Invalid Create Note Test Passed - missing_description
+2026-06-12 20:33:55,780 - INFO - Created Title: Meeting with team
+2026-06-12 20:33:55,780 - INFO - Created Description: Discuss project updates and next steps
+2026-06-12 20:33:56,195 - INFO - Create Note Test Passed
+2026-06-12 20:33:59,212 - INFO - Test note created successfully
+2026-06-12 20:34:01,337 - INFO - Delete Note Test Started
+2026-06-12 20:34:01,350 - INFO - Logging into application
+2026-06-12 20:34:07,420 - INFO - Invalid Create Note Test Started - all_fields_empty
+2026-06-12 20:34:13,020 - INFO - Logging into application
+2026-06-12 20:34:16,189 - INFO - Creating note for delete test
+2026-06-12 20:34:19,002 - INFO - Screenshot saved: screenshots/invalid_create_note_all_fields_empty.png
+2026-06-12 20:34:19,002 - INFO - Executing scenario: all_fields_empty
+2026-06-12 20:34:19,097 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 20:34:19,105 - INFO - Invalid Create Note Test Passed - all_fields_empty
+2026-06-12 20:34:22,294 - INFO - Test note created successfully
+2026-06-12 20:34:22,294 - INFO - Deleting created note
+2026-06-12 20:34:28,537 - INFO - Invalid Login Test Started - invalid_email
+2026-06-12 20:34:32,109 - INFO - Trying login with email: wrong@gmail.com
+2026-06-12 20:34:35,357 - INFO - Screenshot saved: reports/screenshots/invalid_email.png
+2026-06-12 20:34:35,367 - INFO - Current URL: https://practice.expandtesting.com/notes/app/login
+2026-06-12 20:34:35,373 - INFO - Invalid Login Test Passed - invalid_email
+2026-06-12 20:34:44,674 - INFO - Login Test Started
+2026-06-12 20:34:44,685 - INFO - Attempting login with user: agakshita7@gmail.com
+2026-06-12 20:34:46,636 - INFO - Remaining Notes: ['Frontend Design Updates', 'Meeting with team', 'Integration Test Edit', 'Integration Test Note', 'Grocery Shopping', 'Meeting with Team']
+2026-06-12 20:34:46,636 - INFO - Delete Note Test Passed
+2026-06-12 20:34:47,446 - INFO - Current URL after login: https://practice.expandtesting.com/notes/app/login
+2026-06-12 20:34:47,454 - INFO - Login Test Passed
+2026-06-12 20:34:52,867 - INFO - Invalid Login Test Started - invalid_password
+2026-06-12 20:34:56,784 - INFO - Available note titles: ['Frontend Design Updates', 'Meeting with team', 'Integration Test Edit', 'Integration Test Note', 'Grocery Shopping', 'Meeting with Team']
+2026-06-12 20:34:56,785 - INFO - Edit Note Test Passed
+2026-06-12 20:34:57,597 - INFO - Trying login with email: agakshita7@gmail.com
+2026-06-12 20:35:04,058 - INFO - Screenshot saved: reports/screenshots/invalid_password.png
+2026-06-12 20:35:04,069 - INFO - Current URL: https://practice.expandtesting.com/notes/app/login
+2026-06-12 20:35:04,076 - INFO - Invalid Login Test Passed - invalid_password
+2026-06-12 20:35:07,049 - INFO - Invalid Create Note Test Started - missing_title
+2026-06-12 20:35:10,526 - INFO - Logging into application
+2026-06-12 20:35:13,790 - INFO - Screenshot saved: screenshots/invalid_create_note_missing_title.png
+2026-06-12 20:35:13,790 - INFO - Executing scenario: missing_title
+2026-06-12 20:35:14,274 - INFO - Current URL: https://practice.expandtesting.com/notes/app
+2026-06-12 20:35:14,283 - INFO - Invalid Create Note Test Passed - missing_title
+2026-06-13 17:37:07,046 - INFO - Edit Note Test Started
+2026-06-13 17:37:07,058 - INFO - logging into application
+2026-06-13 17:37:11,843 - INFO - Creating note with title: Database Optimization Plan
+2026-06-13 17:37:17,931 - INFO - Test note created successfully
+2026-06-13 17:37:17,932 - INFO - Editing newly created note
+2026-06-13 17:40:50,489 - INFO - Edit Note Test Started
+2026-06-13 17:40:50,502 - INFO - logging into application
+2026-06-13 17:41:04,040 - INFO - Creating note with title: Database Optimization Plan
+2026-06-13 17:41:09,962 - INFO - Test note created successfully
+2026-06-13 17:41:09,963 - INFO - Editing newly created note
+2026-06-13 17:41:23,458 - INFO - Edit Note Test Passed
+2026-06-13 17:46:30,876 - INFO - Delete Note Test Started
+2026-06-13 17:46:30,891 - INFO - Logging into application
+2026-06-13 17:46:40,363 - INFO - Creating note for delete test
+2026-06-13 17:46:46,081 - INFO - Deleting created note
+2026-06-13 17:46:55,325 - INFO - Delete Note Test Passed
+2026-06-13 18:13:36,773 - INFO - Invalid Create Note Test Started - missing_title
+2026-06-13 18:13:36,791 - INFO - Logging into application
+2026-06-13 18:13:41,804 - INFO - Screenshot saved: invalid_create_note_missing_title.png
+2026-06-13 18:13:41,811 - INFO - Invalid Create Note Test Passed - missing_title
+2026-06-13 18:13:51,996 - INFO - Invalid Create Note Test Started - missing_description
+2026-06-13 18:13:52,014 - INFO - Logging into application
+2026-06-13 18:13:56,808 - INFO - Screenshot saved: invalid_create_note_missing_description.png
+2026-06-13 18:13:56,819 - INFO - Invalid Create Note Test Passed - missing_description
+2026-06-13 18:14:03,508 - INFO - Invalid Create Note Test Started - all_fields_empty
+2026-06-13 18:14:03,519 - INFO - Logging into application
+2026-06-13 18:14:09,935 - INFO - Screenshot saved: invalid_create_note_all_fields_empty.png
+2026-06-13 18:14:09,949 - INFO - Invalid Create Note Test Passed - all_fields_empty
+2026-06-13 18:15:32,759 - INFO - Invalid Create Note Test Started - missing_title
+2026-06-13 18:15:32,777 - INFO - Logging into application
+2026-06-13 18:15:38,498 - INFO - Screenshot saved: screenshots\invalid_create_note_missing_title.png
+2026-06-13 18:15:38,521 - INFO - Invalid Create Note Test Passed - missing_title
+2026-06-13 18:15:53,558 - INFO - Invalid Create Note Test Started - missing_description
+2026-06-13 18:15:53,574 - INFO - Logging into application
+2026-06-13 18:16:00,635 - INFO - Screenshot saved: screenshots\invalid_create_note_missing_description.png
+2026-06-13 18:16:00,656 - INFO - Invalid Create Note Test Passed - missing_description
+2026-06-13 18:16:10,952 - INFO - Invalid Create Note Test Started - all_fields_empty
+2026-06-13 18:16:10,975 - INFO - Logging into application
+2026-06-13 18:16:15,578 - INFO - Screenshot saved: screenshots\invalid_create_note_all_fields_empty.png
+2026-06-13 18:16:15,589 - INFO - Invalid Create Note Test Passed - all_fields_empty
+2026-06-13 18:17:45,926 - INFO - Invalid Create Note Test Started - missing_title
+2026-06-13 18:17:45,949 - INFO - Logging into application
+2026-06-13 18:17:54,252 - INFO - Screenshot saved: screenshots/invalid_create_note_missing_title.png
+2026-06-13 18:17:54,265 - INFO - Invalid Create Note Test Passed - missing_title
+2026-06-13 18:18:12,959 - INFO - Invalid Create Note Test Started - missing_description
+2026-06-13 18:18:12,972 - INFO - Logging into application
+2026-06-13 18:18:20,725 - INFO - Screenshot saved: screenshots/invalid_create_note_missing_description.png
+2026-06-13 18:18:20,735 - INFO - Invalid Create Note Test Passed - missing_description
+2026-06-13 18:18:31,629 - INFO - Invalid Create Note Test Started - all_fields_empty
+2026-06-13 18:18:31,644 - INFO - Logging into application
+2026-06-13 18:18:37,299 - INFO - Screenshot saved: screenshots/invalid_create_note_all_fields_empty.png
+2026-06-13 18:18:37,309 - INFO - Invalid Create Note Test Passed - all_fields_empty
+2026-06-13 18:24:45,032 - INFO - Invalid Create Note Test Started - missing_title
+2026-06-13 18:24:45,056 - INFO - Logging into application
+2026-06-13 18:24:52,356 - INFO - Invalid Create Note Test Passed - missing_title
+2026-06-13 18:25:03,495 - INFO - Invalid Create Note Test Started - missing_description
+2026-06-13 18:25:03,508 - INFO - Logging into application
+2026-06-13 18:25:16,645 - INFO - Invalid Create Note Test Passed - missing_description
+2026-06-13 18:25:25,039 - INFO - Invalid Create Note Test Started - all_fields_empty
+2026-06-13 18:25:25,045 - INFO - Logging into application
+2026-06-13 18:25:34,100 - INFO - Invalid Create Note Test Passed - all_fields_empty
+2026-06-13 18:28:12,493 - INFO - Invalid Create Note Test Started - missing_title
+2026-06-13 18:28:12,503 - INFO - Logging into application
+2026-06-13 18:28:24,804 - INFO - Invalid Create Note Test Passed - missing_title
+2026-06-13 18:28:46,778 - INFO - Invalid Create Note Test Started - missing_description
+2026-06-13 18:28:46,782 - INFO - Logging into application
+2026-06-13 18:28:55,693 - INFO - Invalid Create Note Test Passed - missing_description
+2026-06-13 18:29:01,510 - INFO - Invalid Create Note Test Started - all_fields_empty
+2026-06-13 18:29:01,527 - INFO - Logging into application
+2026-06-13 18:30:18,627 - INFO - Invalid Create Note Test Started - missing_title
+2026-06-13 18:30:18,647 - INFO - Logging into application
+2026-06-13 18:30:25,226 - INFO - Invalid Create Note Test Passed - missing_title
+2026-06-13 18:30:55,271 - INFO - Invalid Create Note Test Started - missing_description
+2026-06-13 18:30:55,278 - INFO - Logging into application
+2026-06-13 18:31:21,579 - INFO - Invalid Create Note Test Passed - missing_description
+2026-06-13 18:31:50,912 - INFO - Invalid Create Note Test Started - all_fields_empty
+2026-06-13 18:31:50,930 - INFO - Logging into application
+2026-06-13 18:32:17,253 - INFO - Invalid Create Note Test Passed - all_fields_empty
+2026-06-13 18:35:07,636 - INFO - Invalid Create Note Test Started - missing_title
+2026-06-13 18:35:07,646 - INFO - Logging into application
+2026-06-13 18:35:50,058 - INFO - Capturing screenshot for missing_title
+2026-06-13 18:36:01,763 - INFO - Invalid Create Note Test Started - missing_description
+2026-06-13 18:36:01,769 - INFO - Logging into application
+2026-06-13 18:36:09,536 - INFO - Capturing screenshot for missing_description
+2026-06-13 18:36:22,549 - INFO - Invalid Create Note Test Started - all_fields_empty
+2026-06-13 18:36:22,563 - INFO - Logging into application
+2026-06-13 18:36:28,318 - INFO - Capturing screenshot for all_fields_empty
+2026-06-13 18:37:58,920 - INFO - Invalid Create Note Test Started - missing_title
+2026-06-13 18:37:58,946 - INFO - Logging into application
+2026-06-13 18:38:06,080 - INFO - Capturing screenshot for missing_title
+2026-06-13 18:38:19,165 - INFO - Invalid Create Note Test Started - missing_description
+2026-06-13 18:38:19,175 - INFO - Logging into application
+2026-06-13 18:38:32,063 - INFO - Capturing screenshot for missing_description
+2026-06-13 18:38:45,737 - INFO - Invalid Create Note Test Started - all_fields_empty
+2026-06-13 18:38:45,754 - INFO - Logging into application
+2026-06-13 18:38:52,525 - INFO - Capturing screenshot for all_fields_empty
+2026-06-13 18:39:50,875 - INFO - Invalid Create Note Test Started - missing_title
+2026-06-13 18:39:50,893 - INFO - Logging into application
+2026-06-13 18:39:55,804 - INFO - Capturing screenshot for missing_title
+2026-06-13 18:39:56,090 - INFO - Invalid Create Note Test Passed - missing_title
+2026-06-13 18:40:10,491 - INFO - Invalid Create Note Test Started - missing_description
+2026-06-13 18:40:10,511 - INFO - Logging into application
+2026-06-13 18:40:14,919 - INFO - Capturing screenshot for missing_description
+2026-06-13 18:40:15,156 - INFO - Invalid Create Note Test Passed - missing_description
+2026-06-13 18:40:25,047 - INFO - Invalid Create Note Test Started - all_fields_empty
+2026-06-13 18:40:25,059 - INFO - Logging into application
+2026-06-13 18:40:29,673 - INFO - Capturing screenshot for all_fields_empty
+2026-06-13 18:40:30,061 - INFO - Invalid Create Note Test Passed - all_fields_empty
+2026-06-13 18:40:52,474 - INFO - Invalid Login Test Started - invalid_email
+2026-06-13 18:40:59,805 - INFO - Trying login with email: wrong@gmail.com
+2026-06-13 18:41:05,443 - INFO - Invalid Login Test Passed - invalid_email
+2026-06-13 18:41:18,358 - INFO - Invalid Login Test Started - invalid_password
+2026-06-13 18:41:20,466 - INFO - Trying login with email: agakshita7@gmail.com
+2026-06-13 18:41:23,435 - INFO - Invalid Login Test Passed - invalid_password
+2026-06-14 00:52:44,183 - INFO - Creating note via api test started
+2026-06-14 00:52:44,187 - INFO - Creating note via api 
+2026-06-14 00:52:45,530 - INFO - Finished creating note via api test
+2026-06-14 00:52:46,597 - INFO - Deleting note via api test started
+2026-06-14 00:52:46,597 - INFO - Creating note via api
+2026-06-14 00:52:47,327 - INFO - Deleting note via api
+2026-06-14 00:52:47,590 - INFO - Deleting note via api test passed
+2026-06-14 00:52:48,817 - INFO - Editing note via api test Started
+2026-06-14 00:52:48,831 - INFO - Creating note via api
+2026-06-14 00:52:49,965 - INFO - Editing note via api
+2026-06-14 00:52:50,264 - INFO - Editing note via api test passed
+2026-06-14 00:52:51,176 - INFO - Testing get_all_notes
+2026-06-14 00:52:51,903 - INFO - Getting all notes via api test passed
+2026-06-14 00:52:52,709 - INFO - Invalid Create Note Test Started - missing_title
+2026-06-14 00:52:53,437 - INFO - Invalid Create Note Test Passed - missing_title
+2026-06-14 00:52:54,299 - INFO - Invalid Create Note Test Started - missing_description
+2026-06-14 00:52:55,014 - INFO - Invalid Create Note Test Passed - missing_description
+2026-06-14 00:52:55,852 - INFO - Invalid Create Note Test Started - all_fields_empty
+2026-06-14 00:52:56,585 - INFO - Invalid Create Note Test Passed - all_fields_empty
+2026-06-14 00:52:56,593 - INFO - Invalid Login Test Started - invalid_email
+2026-06-14 00:52:57,368 - INFO - Invalid Login Test Passed - invalid_email
+2026-06-14 00:52:57,373 - INFO - Invalid Login Test Started - invalid_password
+2026-06-14 00:52:58,239 - INFO - Invalid Login Test Passed - invalid_password
+2026-06-14 00:52:58,252 - INFO - API Login Test Started
+2026-06-14 00:52:59,446 - INFO - API Login Test Passed
+2026-06-14 00:53:12,532 - INFO - Integration Test Started - API Delete to UI Validate
+2026-06-14 00:53:12,543 - INFO - Creating note via api
+2026-06-14 00:53:13,937 - INFO - Deleting note via api
+2026-06-14 00:53:14,285 - INFO - Logging into application via UI
+2026-06-14 00:53:17,480 - INFO - Refreshing notes page to reflect API changes
+2026-06-14 00:53:19,758 - INFO - Integration Test Passed
+2026-06-14 00:53:30,893 - INFO - Integration Test Started - UI Edit to API Validate
+2026-06-14 00:53:30,900 - INFO - Logging into application via ui
+2026-06-14 00:53:38,719 - INFO - Creating note via ui
+2026-06-14 00:53:45,560 - INFO - Editing note via ui
+2026-06-14 00:53:46,975 - INFO - getting all notes via api
+2026-06-14 00:53:48,414 - INFO - Integration Test Passed
+2026-06-14 00:53:59,202 - INFO - Integration Test Started - UI Create to API Validate
+2026-06-14 00:53:59,210 - INFO - Logging into application via ui
+2026-06-14 00:54:43,917 - INFO - Creating a note via ui
+2026-06-14 00:54:50,298 - INFO - Getting all notes via api
+2026-06-14 00:54:51,650 - INFO - Integration Test Passed
+2026-06-14 00:55:00,934 - INFO - Create Note Test Started
+2026-06-14 00:55:00,944 - INFO - Logging into application
+2026-06-14 00:55:06,849 - INFO - Creating note with title: Meeting with team
+2026-06-14 00:56:06,327 - INFO - Delete Note Test Started
+2026-06-14 00:56:06,339 - INFO - Logging into application
+2026-06-14 00:56:11,830 - INFO - Creating note for delete test
+2026-06-14 00:56:18,334 - INFO - Deleting created note
+2026-06-14 00:56:54,198 - INFO - Edit Note Test Started
+2026-06-14 00:56:54,213 - INFO - logging into application
+2026-06-14 00:56:59,042 - INFO - Creating note with title: Database Optimization Plan
+2026-06-14 00:57:05,069 - INFO - Test note created successfully
+2026-06-14 00:57:05,069 - INFO - Editing newly created note
+2026-06-14 01:04:05,970 - INFO - Creating note via api test started
+2026-06-14 01:04:05,973 - INFO - Creating note via api 
+2026-06-14 01:04:06,711 - INFO - Finished creating note via api test
+2026-06-14 01:04:07,503 - INFO - Deleting note via api test started
+2026-06-14 01:04:07,504 - INFO - Creating note via api
+2026-06-14 01:04:08,214 - INFO - Deleting note via api
+2026-06-14 01:04:08,469 - INFO - Deleting note via api test passed
+2026-06-14 01:04:09,298 - INFO - Editing note via api test Started
+2026-06-14 01:04:09,300 - INFO - Creating note via api
+2026-06-14 01:04:10,187 - INFO - Editing note via api
+2026-06-14 01:04:10,447 - INFO - Editing note via api test passed
+2026-06-14 01:04:11,294 - INFO - Testing get_all_notes
+2026-06-14 01:04:11,990 - INFO - Getting all notes via api test passed
+2026-06-14 01:04:12,808 - INFO - Invalid Create Note Test Started - missing_title
+2026-06-14 01:04:13,559 - INFO - Invalid Create Note Test Passed - missing_title
+2026-06-14 01:04:14,366 - INFO - Invalid Create Note Test Started - missing_description
+2026-06-14 01:04:15,039 - INFO - Invalid Create Note Test Passed - missing_description
+2026-06-14 01:04:15,860 - INFO - Invalid Create Note Test Started - all_fields_empty
+2026-06-14 01:04:16,568 - INFO - Invalid Create Note Test Passed - all_fields_empty
+2026-06-14 01:04:16,579 - INFO - Invalid Login Test Started - invalid_email
+2026-06-14 01:04:17,278 - INFO - Invalid Login Test Passed - invalid_email
+2026-06-14 01:04:17,289 - INFO - Invalid Login Test Started - invalid_password
+2026-06-14 01:04:18,237 - INFO - Invalid Login Test Passed - invalid_password
+2026-06-14 01:04:18,249 - INFO - API Login Test Started
+2026-06-14 01:04:19,034 - INFO - API Login Test Passed
+2026-06-14 01:04:28,842 - INFO - Creating note via api test started
+2026-06-14 01:04:28,843 - INFO - Creating note via api 
+2026-06-14 01:04:29,506 - INFO - Finished creating note via api test
+2026-06-14 01:04:30,338 - INFO - Deleting note via api test started
+2026-06-14 01:04:30,339 - INFO - Creating note via api
+2026-06-14 01:04:31,044 - INFO - Deleting note via api
+2026-06-14 01:04:31,311 - INFO - Deleting note via api test passed
+2026-06-14 01:04:32,114 - INFO - Editing note via api test Started
+2026-06-14 01:04:32,115 - INFO - Creating note via api
+2026-06-14 01:04:35,190 - INFO - Editing note via api
+2026-06-14 01:04:35,442 - INFO - Editing note via api test passed
+2026-06-14 01:04:36,838 - INFO - Testing get_all_notes
+2026-06-14 01:04:38,015 - INFO - Getting all notes via api test passed
+2026-06-14 01:04:39,027 - INFO - Invalid Create Note Test Started - missing_title
+2026-06-14 01:04:40,185 - INFO - Invalid Create Note Test Passed - missing_title
+2026-06-14 01:04:41,415 - INFO - Invalid Create Note Test Started - missing_description
+2026-06-14 01:04:42,474 - INFO - Invalid Create Note Test Passed - missing_description
+2026-06-14 01:04:43,293 - INFO - Invalid Create Note Test Started - all_fields_empty
+2026-06-14 01:04:44,034 - INFO - Invalid Create Note Test Passed - all_fields_empty
+2026-06-14 01:04:44,059 - INFO - Invalid Login Test Started - invalid_email
+2026-06-14 01:04:44,753 - INFO - Invalid Login Test Passed - invalid_email
+2026-06-14 01:04:44,766 - INFO - Invalid Login Test Started - invalid_password
+2026-06-14 01:04:45,666 - INFO - Invalid Login Test Passed - invalid_password
+2026-06-14 01:04:45,682 - INFO - API Login Test Started
+2026-06-14 01:04:46,514 - INFO - API Login Test Passed
+2026-06-14 13:51:06,090 - INFO - Invalid Login Test Started - invalid_email
+2026-06-14 13:51:07,208 - INFO - Invalid Login Test Passed - invalid_email
+2026-06-14 13:51:07,264 - INFO - Invalid Login Test Started - invalid_password
+2026-06-14 13:51:08,526 - INFO - Invalid Login Test Passed - invalid_password
+2026-06-14 13:51:08,539 - INFO - API Login Test Started
+2026-06-14 13:51:10,224 - INFO - API Login Test Passed
+2026-06-14 13:51:18,297 - INFO - Creating note via api test started
+2026-06-14 13:51:18,331 - INFO - Creating note via api 
+2026-06-14 13:51:19,690 - INFO - Finished creating note via api test
+2026-06-14 13:51:21,199 - INFO - Deleting note via api test started
+2026-06-14 13:51:21,199 - INFO - Creating note via api
+2026-06-14 13:51:22,645 - INFO - Deleting note via api
+2026-06-14 13:51:22,939 - INFO - Deleting note via api test passed
+2026-06-14 13:51:23,919 - INFO - Editing note via api test Started
+2026-06-14 13:51:23,965 - INFO - Creating note via api
+2026-06-14 13:51:25,230 - INFO - Editing note via api
+2026-06-14 13:51:25,482 - INFO - Editing note via api test passed
+2026-06-14 13:51:26,902 - INFO - Testing get_all_notes
+2026-06-14 13:51:27,938 - INFO - Getting all notes via api test passed
+2026-06-14 13:51:29,938 - INFO - Invalid Create Note Test Started - missing_title
+2026-06-14 13:51:33,812 - INFO - Invalid Create Note Test Passed - missing_title
+2026-06-14 13:51:35,031 - INFO - Invalid Create Note Test Started - missing_description
+2026-06-14 13:51:36,654 - INFO - Invalid Create Note Test Passed - missing_description
+2026-06-14 13:51:38,070 - INFO - Invalid Create Note Test Started - all_fields_empty
+2026-06-14 13:51:39,522 - INFO - Invalid Create Note Test Passed - all_fields_empty
+2026-06-14 13:51:39,528 - INFO - Invalid Login Test Started - invalid_email
+2026-06-14 13:51:40,555 - INFO - Invalid Login Test Passed - invalid_email
+2026-06-14 13:51:40,570 - INFO - Invalid Login Test Started - invalid_password
+2026-06-14 13:51:41,893 - INFO - Invalid Login Test Passed - invalid_password
+2026-06-14 13:51:41,903 - INFO - API Login Test Started
+2026-06-14 13:51:43,427 - INFO - API Login Test Passed
+2026-06-14 16:45:34,428 - INFO - Editing note via api test Started
+2026-06-14 16:45:34,464 - INFO - Creating note via api
+2026-06-14 16:45:35,127 - INFO - Editing note via api
+2026-06-14 16:45:35,368 - INFO - Editing note via api test passed
+2026-06-14 16:56:53,200 - INFO - Deleting note via api test started
+2026-06-14 16:56:53,201 - INFO - Creating note via api
+2026-06-14 16:56:54,116 - INFO - Deleting note via api
+2026-06-14 16:56:54,566 - INFO - Deleting note via api test passed
+2026-06-14 23:38:59,820 - INFO - Invalid Create Note Test Started - missing_description
+2026-06-14 23:38:59,840 - INFO - Logging into application
+2026-06-14 23:39:05,460 - INFO - Edit Note Test Started
+2026-06-14 23:39:05,472 - INFO - logging into application
+2026-06-14 23:39:18,807 - INFO - Create Note Test Started
+2026-06-14 23:39:18,826 - INFO - Logging into application
+2026-06-14 23:39:22,458 - INFO - Capturing screenshot for missing_description
+2026-06-14 23:39:22,775 - INFO - Invalid Create Note Test Passed - missing_description
+2026-06-14 23:39:34,963 - INFO - Creating note with title: Database Optimization Plan
+2026-06-14 23:39:44,106 - INFO - Test note created successfully
+2026-06-14 23:39:44,106 - INFO - Editing newly created note
+2026-06-14 23:39:47,403 - INFO - Creating note with title: Meeting with team
+2026-06-14 23:40:12,267 - INFO - Delete Note Test Started
+2026-06-14 23:40:12,284 - INFO - Logging into application
+2026-06-14 23:40:12,392 - INFO - Invalid Create Note Test Started - all_fields_empty
+2026-06-14 23:40:12,409 - INFO - Logging into application
+2026-06-14 23:40:19,466 - INFO - Creating note for delete test
+2026-06-14 23:40:26,043 - INFO - Deleting created note
+2026-06-14 23:40:33,492 - INFO - Delete Note Test Passed
+2026-06-14 23:40:39,308 - INFO - Capturing screenshot for all_fields_empty
+2026-06-14 23:40:39,890 - INFO - Invalid Create Note Test Passed - all_fields_empty
+2026-06-14 23:40:40,452 - INFO - Edit Note Test Passed
+2026-06-14 23:40:42,379 - INFO - Invalid Login Test Started - invalid_password
+2026-06-14 23:40:42,723 - INFO - Trying login with email: agakshita7@gmail.com
+2026-06-14 23:40:45,923 - INFO - Invalid Create Note Test Started - missing_title
+2026-06-14 23:40:45,942 - INFO - Logging into application
+2026-06-14 23:40:50,149 - INFO - Invalid Login Test Passed - invalid_password
+2026-06-14 23:40:52,195 - INFO - Invalid Login Test Started - invalid_email
+2026-06-14 23:41:06,974 - INFO - Trying login with email: wrong@gmail.com
+2026-06-14 23:41:11,050 - INFO - Login Test Started
+2026-06-14 23:41:11,069 - INFO - Attempting login with user: agakshita7@gmail.com
+2026-06-14 23:41:15,675 - INFO - Current URL after login: https://practice.expandtesting.com/notes/app/login
+2026-06-14 23:41:15,696 - INFO - Login Test Passed
+2026-06-14 23:41:16,184 - INFO - Invalid Login Test Passed - invalid_email
+2026-06-14 23:41:52,510 - INFO - Capturing screenshot for missing_title
+2026-06-14 23:41:52,841 - INFO - Invalid Create Note Test Passed - missing_title

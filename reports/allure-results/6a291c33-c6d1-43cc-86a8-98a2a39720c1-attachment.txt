@@ -1,0 +1,6 @@
+[32mINFO    [0m NotesFramework:test_create_note.py:15 Create Note Test Started
+[32mINFO    [0m NotesFramework:test_create_note.py:24 Logging into application
+[32mINFO    [0m NotesFramework:test_create_note.py:31 Creating note with title: Meeting with team
+[32mINFO    [0m NotesFramework:test_create_note.py:49 Created Title: Database Optimization Plan
+[32mINFO    [0m NotesFramework:test_create_note.py:53 Created Description: Discuss about growth and next steps
+[32mINFO    [0m NotesFramework:test_create_note.py:61 Create Note Test Passed

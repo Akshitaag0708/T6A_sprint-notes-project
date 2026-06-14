@@ -1,0 +1,4 @@
+[32mINFO    [0m NotesFramework:test_edit_note_api.py:9 Editing note via api test Started
+[32mINFO    [0m NotesFramework:test_edit_note_api.py:19 Creating note via api
+[32mINFO    [0m NotesFramework:test_edit_note_api.py:33 Editing note via api
+[32mINFO    [0m NotesFramework:test_edit_note_api.py:60 Editing note via api test passed

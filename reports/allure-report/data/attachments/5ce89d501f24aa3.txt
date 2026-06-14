@@ -1,0 +1,6 @@
+[32mINFO    [0m NotesFramework:test_invalid_create_note.py:26 Invalid Create Note Test Started - missing_description
+[32mINFO    [0m NotesFramework:test_invalid_create_note.py:45 Logging into application
+[32mINFO    [0m NotesFramework:test_invalid_create_note.py:72 Screenshot saved: screenshots/invalid_create_note_missing_description.png
+[32mINFO    [0m NotesFramework:test_invalid_create_note.py:80 Executing scenario: missing_description
+[32mINFO    [0m NotesFramework:test_invalid_create_note.py:117 Current URL: https://practice.expandtesting.com/notes/app
+[32mINFO    [0m NotesFramework:test_invalid_create_note.py:123 Invalid Create Note Test Passed - missing_description

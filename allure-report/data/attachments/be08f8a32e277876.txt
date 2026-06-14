@@ -1,0 +1,2 @@
+[32mINFO    [0m NotesFramework:test_delete_note.py:14 Delete Note Test Started
+[32mINFO    [0m NotesFramework:test_delete_note.py:21 Logging into application

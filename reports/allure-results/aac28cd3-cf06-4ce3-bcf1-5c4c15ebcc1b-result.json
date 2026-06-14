@@ -1,0 +1,1 @@
+{"name": "test_delete_note_api_ui", "status": "passed", "start": 1781273568234, "stop": 1781273694739, "uuid": "49833f2d-3992-4bb3-a3ee-d24c1b765d1f", "testCaseId": "b17e71c6754ad8fce78edf83476a002a", "fullName": "tests.integration.test_delete_note_api_ui#test_delete_note_api_ui", "titlePath": ["tests", "integration", "test_delete_note_api_ui.py"]}

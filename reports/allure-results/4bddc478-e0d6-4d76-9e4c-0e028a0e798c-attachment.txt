@@ -1,0 +1,2 @@
+[32mINFO    [0m NotesFramework:test_invalid_create_note_api.py:18 Invalid Create Note Test Started - missing_description
+[32mINFO    [0m NotesFramework:test_invalid_create_note_api.py:35 Invalid Create Note Test Passed - missing_description

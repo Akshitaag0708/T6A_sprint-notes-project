@@ -1,5 +1,4 @@
 import pytest
-
 from api.auth_api import AuthAPI
 from api.notes_api import NotesAPI
 from config.config_reader import ConfigReader
@@ -12,10 +11,7 @@ def api_client():
 
     auth_api = AuthAPI(config["api_base_url"])
 
-    login_response = auth_api.login(
-        config["email"],
-        config["password"]
-    )
+    login_response = auth_api.login(config["email"],config["password"])
 
     assert login_response.status_code == 200, "API Login Failed"
 

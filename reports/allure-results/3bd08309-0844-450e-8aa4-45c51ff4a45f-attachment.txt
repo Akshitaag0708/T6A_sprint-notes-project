@@ -1,0 +1,6 @@
+[32mINFO    [0m NotesFramework:test_invalid_create_note.py:26 Invalid Create Note Test Started - all_fields_empty
+[32mINFO    [0m NotesFramework:test_invalid_create_note.py:45 Logging into application
+[32mINFO    [0m NotesFramework:test_invalid_create_note.py:72 Screenshot saved: screenshots/invalid_create_note_all_fields_empty.png
+[32mINFO    [0m NotesFramework:test_invalid_create_note.py:80 Executing scenario: all_fields_empty
+[32mINFO    [0m NotesFramework:test_invalid_create_note.py:117 Current URL: https://practice.expandtesting.com/notes/app
+[32mINFO    [0m NotesFramework:test_invalid_create_note.py:123 Invalid Create Note Test Passed - all_fields_empty

@@ -1,0 +1,4 @@
+[32mINFO    [0m NotesFramework:test_login.py:14 Login Test Started
+[32mINFO    [0m NotesFramework:test_login.py:22 Attempting login with user: agakshita7@gmail.com
+[32mINFO    [0m NotesFramework:test_login.py:31 Current URL after login: https://practice.expandtesting.com/notes/app/login
+[32mINFO    [0m NotesFramework:test_login.py:37 Login Test Passed

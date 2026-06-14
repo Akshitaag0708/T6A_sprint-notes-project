@@ -1,23 +1,24 @@
 import pytest
-
 from utils.data_reader import DataReader
-
+from utils.logger import get_logger
+logger = get_logger()
 
 @pytest.mark.api
 def test_create_note_api(api_client):
 
-    data = DataReader.read_json(
-        "test_data/create_note.json"
-    )
+    logger.info("Creating note via api test started")
 
+    data = DataReader.read_json("test_data/create_note.json")
     note = data["valid_note"]
+
+    logger.info("Creating note via api ")
 
     response = (
         api_client["notes_api"].create_note(
-            category=note["category"],
-            title=note["title"],
-            description=note["description"],
-            token=api_client["token"]
+            category = note["category"],
+            title = note["title"],
+            description = note["description"],
+            token = api_client["token"]
         )
     )
 
@@ -27,6 +28,8 @@ def test_create_note_api(api_client):
 
     assert response_data["title"] == note["title"]
 
-    assert response_data["description"]==note["description"]
+    assert response_data["description"] == note["description"]
 
     assert response_data["category"] == note["category"]
+
+    logger.info("Finished creating note via api test")

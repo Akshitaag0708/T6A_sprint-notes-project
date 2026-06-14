@@ -1,0 +1,2 @@
+[32mINFO    [0m NotesFramework:test_login_api.py:12 API Login Test Started
+[32mINFO    [0m NotesFramework:test_login_api.py:39 API Login Test Passed

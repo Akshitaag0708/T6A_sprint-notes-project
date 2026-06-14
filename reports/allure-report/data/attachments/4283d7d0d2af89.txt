@@ -1,0 +1,5 @@
+[32mINFO    [0m NotesFramework:test_invalid_login.py:24 Invalid Login Test Started - invalid_email
+[32mINFO    [0m NotesFramework:test_invalid_login.py:40 Trying login with email: wrong@gmail.com
+[32mINFO    [0m NotesFramework:test_invalid_login.py:54 Screenshot saved: reports/screenshots/invalid_email.png
+[32mINFO    [0m NotesFramework:test_invalid_login.py:58 Current URL: https://practice.expandtesting.com/notes/app/login
+[32mINFO    [0m NotesFramework:test_invalid_login.py:64 Invalid Login Test Passed - invalid_email

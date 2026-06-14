@@ -1,0 +1,7 @@
+[32mINFO    [0m NotesFramework:test_delete_note.py:14 Delete Note Test Started
+[32mINFO    [0m NotesFramework:test_delete_note.py:21 Logging into application
+[32mINFO    [0m NotesFramework:test_delete_note.py:29 Creating note for delete test
+[32mINFO    [0m NotesFramework:test_delete_note.py:37 Test note created successfully
+[32mINFO    [0m NotesFramework:test_delete_note.py:40 Deleting created note
+[32mINFO    [0m NotesFramework:test_delete_note.py:48 Remaining Notes: ['Meeting with team', 'Frontend Design Updates', 'Integration Test Edit', 'Integration Test Note', 'Grocery Shopping', 'Meeting with Team']
+[32mINFO    [0m NotesFramework:test_delete_note.py:57 Delete Note Test Passed

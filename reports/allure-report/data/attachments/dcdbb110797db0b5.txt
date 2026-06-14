@@ -1,0 +1,2 @@
+[32mINFO    [0m NotesFramework:test_delete_note_api_ui.py:16 Integration Test Started - API Delete to UI Validate
+[32mINFO    [0m NotesFramework:test_delete_note_api_ui.py:77 Integration Test Passed

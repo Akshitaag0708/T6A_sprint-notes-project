@@ -1,0 +1,1 @@
+[32mINFO    [0m NotesFramework:test_validate_note_in_api.py:16 Integration Test Started - UI Create to API Validate

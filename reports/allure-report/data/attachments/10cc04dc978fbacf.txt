@@ -1,0 +1,2 @@
+[32mINFO    [0m NotesFramework:test_edit_note_in_api.py:17 Integration Test Started - UI Edit to API Validate
+[32mINFO    [0m NotesFramework:test_edit_note_in_api.py:101 Integration Test Passed

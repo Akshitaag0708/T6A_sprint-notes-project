@@ -1,0 +1,4 @@
+[32mINFO    [0m NotesFramework:test_delete_note_api.py:10 Deleting note via api test started
+[32mINFO    [0m NotesFramework:test_delete_note_api.py:16 Creating note via api
+[32mINFO    [0m NotesFramework:test_delete_note_api.py:31 Deleting note via api
+[32mINFO    [0m NotesFramework:test_delete_note_api.py:41 Deleting note via api test passed

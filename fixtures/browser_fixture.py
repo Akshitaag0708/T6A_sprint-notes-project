@@ -9,7 +9,17 @@ def browser():
     config = ConfigReader.read_config()
 
     options = ChromeOptions()
-
+    options.add_argument("--disable-notifications")
+    # options.add_argument("--disable-popup-blocking")
+    # options.add_argument("--disable-infobars")
+    # options.add_argument("--disable-blink-features=AutomationControlled")
+    # prefs = {
+    #     "profile.default_content_setting_values.notifications": 2
+    # }
+    # options.add_experimental_option(
+    #     "prefs",
+    #     prefs
+    # )
     driver = Chrome(options=options)
 
     driver.maximize_window()
